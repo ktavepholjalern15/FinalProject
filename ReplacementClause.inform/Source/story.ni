@@ -1,18 +1,43 @@
 "ReplacementClause" by Makana Tavepholjalern
 
+Include Secret Doors by Andrew Owen.
+
 When play begins:
-	say ". ."
+	say " You are carrying a big keyring.";  
+Move silver key to player.; Move bentkey to player.; Move Metal Key to player.  
+
+
+
+The description of player is " ."
 
 Rule for deciding whether all includes something: it does not.
 
 Rule for printing a parser error when the latest parser error is the nothing to do error:
    say "Hey, no cheating, do you want to get coal in your stockings?." instead
 
-The Silver key is a thing.
+The Silver key is a thing.   The Silver key unlocks the Gate.
 
-The Brass key is a thing.  
+The description of the Silver key is " ."
 
-The Metal key is a thing.  
+The Brass key is a thing. The printed name is "brass key". Understand "brass key" or "key" or "brass" as Brass key. The Brass key unlocks the Hardwood Door.
+
+The description of the Brass key is " An old Brass key which is bent.  You try to bend it back, but you aren't strong enough.  You'll have to use some tool to bend it back in place."
+
+BentKey is a thing. The printed name is "brass key". Understand "brass key" or "key" or "brass" as BentKey.
+
+
+Understand "hit [something] with [something]" as Hitting. Hitting is an action applying to two things.
+Check hitting:
+	if player is in Toy Room:
+		if noun is BentKey and second noun is Mini Hammer:
+			say "You hammer the key back into shape! Now it works. Yay.";
+			now BentKey is off-stage;
+			now player has Brass Key.
+
+
+The Metal key is a thing.  The Metal Key unlocks the White Door.
+
+The description of the metal key is " ."
 
 Understand "Take me away"  as Bubbling.  Bubbling is an action out of world.
 
@@ -30,7 +55,7 @@ Toy Room is a room.  The Toy room is east of White Door. The description of the 
 
 White Door is a door.  White door is east of the Home Room.  White door is west of Toy Room.  The description of the White Door is " ."
 
-Mini Hammer is a thing.  Mini Hammer is on the Worktable.
+Mini Hammer is a thing. Understand "hammer" as Mini Hammer. Mini Hammer is on the Worktable.
 
 Worktable is a scenery supporter.  Worktable is in Toy Room.  
 
@@ -71,3 +96,5 @@ Chapter 10
 Spain is a room.  Spain is north of the Sky.  The description of Spain is " ."
 
 Hawaii is a room.  Hawaii is west of the Sky.  The description of Hawaii is " ."
+
+

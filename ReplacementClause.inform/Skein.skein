@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0xd5da3c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x10e6ba60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xd5da3c0" />
-  <item nodeId="node-0xd5da3c0">
+  <activeNode nodeId="node-0x10e6ba60" />
+  <item nodeId="node-0x10e6ba60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-. .
+ You are carrying a big keyring.
 
 ReplacementClause
 An Interactive Fiction by Makana Tavepholjalern
@@ -17,17 +17,247 @@ Release 1 / Serial number 130306 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 Home Room
  .
 
-You can see Gate, a Hardwood Door and White Door here.
+You can see a White Door, a Hardwood Door and a Gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">NO</temporary>
+    <children>
+      <child nodeId="node-0xd5f0f00" />
+      <child nodeId="node-0xd5cd4f0" />
+      <child nodeId="node-0x11d260b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d260b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+
+Toy Room
+ .
+
+On the Worktable is Mini Hammer.
+
+You can also see a White Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x11eee2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11eee2b0">
+    <command xml:space="preserve">take hammer</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0xfdd0f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xfdd0f90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Mini Hammer
+  a Metal key
+  brass key
+  a Silver key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d4ae20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d4ae20">
+    <command xml:space="preserve">hit brass key with hammer</command>
+    <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">NO</temporary>
+    <temporary score="28">YES</temporary>
+  </item>
+  <item nodeId="node-0xd5cd4f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Metal key
+  brass key
+  a Silver key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xd5da410" />
+      <child nodeId="node-0x10ebb0b0" />
     </children>
   </item>
-  <item nodeId="node-0xd5da410">
+  <item nodeId="node-0x10ebb0b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+
+Toy Room
+ .
+
+On the Worktable is Mini Hammer.
+
+You can also see a White Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d58ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d58ee0">
+    <command xml:space="preserve">hit key</command>
+    <result xml:space="preserve">Which do you mean, the Metal key or the Silver key?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e63b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e63b30">
+    <command xml:space="preserve">hit brass key with hammer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e864a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e864a0">
+    <command xml:space="preserve">rules on</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e9cba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e9cba0">
+    <command xml:space="preserve">hit brass key with mini hammer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e28b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e28b00">
+    <command xml:space="preserve">take hammer</command>
+    <result xml:space="preserve">[Rule &quot;can&apos;t take yourself rule&quot; applies.]
+[Rule &quot;can&apos;t take other people rule&quot; applies.]
+[Rule &quot;can&apos;t take component parts rule&quot; applies.]
+[Rule &quot;can&apos;t take people&apos;s possessions rule&quot; applies.]
+[Rule &quot;can&apos;t take items out of play rule&quot; applies.]
+[Rule &quot;can&apos;t take what you&apos;re inside rule&quot; applies.]
+[Rule &quot;can&apos;t take what&apos;s already taken rule&quot; applies.]
+[Rule &quot;can&apos;t take scenery rule&quot; applies.]
+[Rule &quot;can only take things rule&quot; applies.]
+[Rule &quot;can&apos;t take what&apos;s fixed in place rule&quot; applies.]
+[Rule &quot;use player&apos;s holdall to avoid exceeding carrying capacity rule&quot; applies.]
+[Rule &quot;can&apos;t exceed carrying capacity rule&quot; applies.]
+[Rule &quot;standard taking rule&quot; applies.]
+[Rule &quot;standard report taking rule&quot; applies.]
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e247d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e247d0">
+    <command xml:space="preserve">hit key with hammer</command>
+    <result xml:space="preserve">Which do you mean, the Metal key or the Silver key?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x51cce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x51cce0">
+    <command xml:space="preserve">hit brass key with hammer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x10ed0cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10ed0cb0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[Rule &quot;print empty inventory rule&quot; applies.]
+[Rule &quot;print standard inventory rule&quot; applies.]
+You are carrying:
+  Mini Hammer
+  a Metal key
+  brass key
+  a Silver key
+
+[Rule &quot;report other people taking inventory rule&quot; applies.]
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11df8650" />
+    </children>
+  </item>
+  <item nodeId="node-0x11df8650">
+    <command xml:space="preserve">rules oof</command>
+    <result xml:space="preserve">I only understood you as far as wanting to rules.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d50de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d50de0">
+    <command xml:space="preserve">rules off</command>
+    <result xml:space="preserve">Rules tracing now switched off. Type &quot;rules&quot; to switch it on again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0xd5f0f00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Santa&apos;s office

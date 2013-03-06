@@ -3,78 +3,78 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6G60</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"ReplacementClause" by Makana Tavepholjalern</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>23</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>48</integer>
         <key>Title</key><string>Chapter 1 ~ A Beginning</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>27</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>52</integer>
         <key>Title</key><string>Chapter 2</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>37</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>62</integer>
         <key>Title</key><string>Chapter 3</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>43</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>68</integer>
         <key>Title</key><string>Chapter 4</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>49</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>74</integer>
         <key>Title</key><string>Chapter 5</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>53</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>78</integer>
         <key>Title</key><string>Chapter 6</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>7</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>57</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>82</integer>
         <key>Title</key><string>Chapter 7</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>8</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>61</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>86</integer>
         <key>Title</key><string>Chapter 8</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>9</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>65</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>90</integer>
         <key>Title</key><string>Chapter 9</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>10</key><dict>
-        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform (old)/ReplacementClause/ReplacementClause.inform/Source/story.ni</string>
-        <key>Line</key><integer>69</integer>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Documents/Intro CS/Inform/FinalProject/ReplacementClause.inform/Source/story.ni</string>
+        <key>Line</key><integer>94</integer>
         <key>Title</key><string>Chapter 10</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
@@ -934,6 +934,13 @@
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>133</key><dict>
+        <key>Filename</key><string>/Users/ktavepholjalern15/Library/Inform/Extensions/andrew owen/secret doors.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Secret Doors by Andrew Owen begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>134</key><dict>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>scene understood is a scene which varies</string>
         <key>Level</key><integer>0</integer>
