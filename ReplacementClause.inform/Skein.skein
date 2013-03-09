@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x10e6ba60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x10e6ba60" />
+  <activeNode nodeId="node-0x12cbe2a0" />
   <item nodeId="node-0x10e6ba60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -12,20 +12,21 @@
 
 ReplacementClause
 An Interactive Fiction by Makana Tavepholjalern
-Release 1 / Serial number 130306 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130308 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Home Room
- .
+ there is an unlit lamp hanging on the wall.
 
-You can see a White Door, a Hardwood Door and a Gate here.
+You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in which is a Fire) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="29">NO</temporary>
+    <temporary score="50">NO</temporary>
     <children>
-      <child nodeId="node-0xd5f0f00" />
       <child nodeId="node-0xd5cd4f0" />
+      <child nodeId="node-0x17b66e70" />
+      <child nodeId="node-0xd5f0f00" />
       <child nodeId="node-0x11d260b0" />
     </children>
   </item>
@@ -84,6 +85,248 @@ You can also see a White Door here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
+  </item>
+  <item nodeId="node-0xd5f0f00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Hardwood Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ec6590" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ec6590">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+
+Toy Room
+ .
+
+On the Worktable is Mini Hammer.
+
+You can also see a White Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x14272fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14272fa0">
+    <command xml:space="preserve">take hammer</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e0e780" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e0e780">
+    <command xml:space="preserve">hit key with hammer</command>
+    <result xml:space="preserve">Which do you mean, the Metal key, brass key or the Silver key?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d42950" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d42950">
+    <command xml:space="preserve">hit brass key with hammer</command>
+    <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d1d7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d1d7b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Home Room
+ .
+
+You can see a White Door, a Hardwood Door and a Gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x14271200" />
+    </children>
+  </item>
+  <item nodeId="node-0x14271200">
+    <command xml:space="preserve">unlock hardwood door with brass key</command>
+    <result xml:space="preserve">You unlock the Hardwood Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x10ec3c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10ec3c20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Hardwood Door)
+
+Santa&apos;s office
+ .
+
+You can see a Hardwood Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d19ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d19ba0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Santa&apos;s office
+ .
+
+You can see a Hardwood Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d6a760" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d6a760">
+    <command xml:space="preserve">x santa transformer</command>
+    <result xml:space="preserve">You see nothing special about the Santa Transformer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x17b66e70">
+    <command xml:space="preserve">take lamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x142a58f0" />
+      <child nodeId="node-0x11e8c180" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e8c180">
+    <command xml:space="preserve">light lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x1428afc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1428afc0">
+    <command xml:space="preserve">light lamp with fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e8e100" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e8e100">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x18171e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x18171e80">
+    <command xml:space="preserve">take fire</command>
+    <result xml:space="preserve">You&apos;re gonna carry that with your bare hands? Try looking around for something you can light instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0x142a58f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a lamp
+  a Metal key
+  brass key
+  a Silver key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d9b7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d9b7a0">
+    <command xml:space="preserve">light brass key with fire</command>
+    <result xml:space="preserve"> why would you want to light that?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e36d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e36d20">
+    <command xml:space="preserve">light lamp with key</command>
+    <result xml:space="preserve">Which do you mean, the Metal key, brass key or the Silver key?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x12cbe2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12cbe2a0">
+    <command xml:space="preserve">light lamp with metal key</command>
+    <result xml:space="preserve">You can&apos;t light anything with that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
   </item>
   <item nodeId="node-0xd5cd4f0">
     <command xml:space="preserve">i</command>
@@ -256,15 +499,5 @@ You are carrying:
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
-  </item>
-  <item nodeId="node-0xd5f0f00">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Santa&apos;s office
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
   </item>
 </Skein>
