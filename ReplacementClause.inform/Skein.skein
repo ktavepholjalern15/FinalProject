@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x2ae250" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5c75350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2ae250" />
-  <item nodeId="node-0x2ae250">
+  <activeNode nodeId="node-0x5c75350" />
+  <item nodeId="node-0x5c75350">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -23,16 +23,25 @@ You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in wh
     <changed>NO</changed>
     <temporary score="1219">NO</temporary>
     <children>
-      <child nodeId="node-0x152a6580" />
-      <child nodeId="node-0x1527a5d0" />
-      <child nodeId="node-0x1ab6a430" />
-      <child nodeId="node-0x1abb9f80" />
-      <child nodeId="node-0x2da430" />
-      <child nodeId="node-0x194235a0" />
-      <child nodeId="node-0xcd1e310" />
+      <child nodeId="node-0x56d6c50" />
+      <child nodeId="node-0x56d6a90" />
+      <child nodeId="node-0x56d6be0" />
+      <child nodeId="node-0x56d6a20" />
+      <child nodeId="node-0x56d4630" />
+      <child nodeId="node-0x5c753c0" />
+      <child nodeId="node-0x56d45c0" />
     </children>
   </item>
-  <item nodeId="node-0xcd1e310">
+  <item nodeId="node-0x56d45c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to hammer that brass key flat again before you can unlock .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="344">YES</temporary>
+  </item>
+  <item nodeId="node-0x5c753c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -45,57 +54,47 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>NO</changed>
     <temporary score="377">YES</temporary>
     <children>
-      <child nodeId="node-0xddcd070" />
-      <child nodeId="node-0x128baeb0" />
-      <child nodeId="node-0x12864a10" />
-      <child nodeId="node-0x128f0bc0" />
-      <child nodeId="node-0x2989f0" />
+      <child nodeId="node-0x56d44e0" />
+      <child nodeId="node-0x5c75410" />
+      <child nodeId="node-0x56d4280" />
+      <child nodeId="node-0x5c7a850" />
+      <child nodeId="node-0x56d42f0" />
     </children>
   </item>
-  <item nodeId="node-0x2989f0">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve"> You examine the curvy lines of the characters, but see nothing that you understand.  Upon closer inspection, you see that there is a line that marks out a rectangle that goes from the floor until your waist.
+  <item nodeId="node-0x56d42f0">
+    <command xml:space="preserve">x fuel</command>
+    <result xml:space="preserve"> .
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="375">YES</temporary>
+    <temporary score="353">YES</temporary>
     <children>
-      <child nodeId="node-0x16964cf0" />
-      <child nodeId="node-0x128e4e10" />
+      <child nodeId="node-0x56d3f90" />
     </children>
   </item>
-  <item nodeId="node-0x128e4e10">
-    <command xml:space="preserve">x stone door</command>
-    <result xml:space="preserve">You see nothing special about the stone door.
+  <item nodeId="node-0x56d3f90">
+    <command xml:space="preserve">x roast beef</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Roast Turkey.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="374">YES</temporary>
-  </item>
-  <item nodeId="node-0x16964cf0">
-    <command xml:space="preserve">push wall</command>
-    <result xml:space="preserve">You must supply a noun.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="372">YES</temporary>
+    <temporary score="353">YES</temporary>
     <children>
-      <child nodeId="node-0x16974b60" />
+      <child nodeId="node-0x56d3fe0" />
     </children>
   </item>
-  <item nodeId="node-0x16974b60">
-    <command xml:space="preserve">open wall</command>
-    <result xml:space="preserve">You must supply a noun.
+  <item nodeId="node-0x56d3fe0">
+    <command xml:space="preserve">x beef roast</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="371">YES</temporary>
+    <temporary score="352">YES</temporary>
   </item>
-  <item nodeId="node-0x128f0bc0">
+  <item nodeId="node-0x5c7a850">
     <command xml:space="preserve">x beef roast</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -104,11 +103,11 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>NO</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x128c1500" />
-      <child nodeId="node-0x169ab850" />
+      <child nodeId="node-0x56d4130" />
+      <child nodeId="node-0x56d3dc0" />
     </children>
   </item>
-  <item nodeId="node-0x169ab850">
+  <item nodeId="node-0x56d3dc0">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve"> A circular oak dining table with four legs, supporting a christmast feast.
 
@@ -119,10 +118,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x19418580" />
+      <child nodeId="node-0x56d3e10" />
     </children>
   </item>
-  <item nodeId="node-0x19418580">
+  <item nodeId="node-0x56d3e10">
     <command xml:space="preserve">x beef roast</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -131,10 +130,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x16954b20" />
+      <child nodeId="node-0x56d3e60" />
     </children>
   </item>
-  <item nodeId="node-0x16954b20">
+  <item nodeId="node-0x56d3e60">
     <command xml:space="preserve">eat beef roast</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -143,10 +142,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab80860" />
+      <child nodeId="node-0x56d3eb0" />
     </children>
   </item>
-  <item nodeId="node-0x1ab80860">
+  <item nodeId="node-0x56d3eb0">
     <command xml:space="preserve">eat mashed potatoes</command>
     <result xml:space="preserve">(first taking Mashedpotatoes)
  Creamy, buttery, and salty with the aftertaste of roasted garlic.  Just what holiday mashed potatoes should taste like.
@@ -156,10 +155,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x169b8e40" />
+      <child nodeId="node-0x56d3f20" />
     </children>
   </item>
-  <item nodeId="node-0x169b8e40">
+  <item nodeId="node-0x56d3f20">
     <command xml:space="preserve">eat roast turkey</command>
     <result xml:space="preserve">(first taking Roast Turkey)
  The light and dark meat is juicy and delicious.  The crispy skin is slightly salted, and you can smell the aroma of rosemary and thyme.  You eat the entire turkey, you really have the appetite of a true santa.
@@ -169,10 +168,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x16914340" />
+      <child nodeId="node-0x56d4050" />
     </children>
   </item>
-  <item nodeId="node-0x16914340">
+  <item nodeId="node-0x56d4050">
     <command xml:space="preserve">eat smoked ham</command>
     <result xml:space="preserve">(first taking Smoked ham)
  Mmm, smoked elven ham, glazed with mustard and honey.  The sugars have carmelized on the outside of the meat, and the bone keeps in all the juices.  How can you eat so much?
@@ -182,10 +181,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x1abc3600" />
+      <child nodeId="node-0x5c7a8e0" />
     </children>
   </item>
-  <item nodeId="node-0x1abc3600">
+  <item nodeId="node-0x5c7a8e0">
     <command xml:space="preserve">eat green beans</command>
     <result xml:space="preserve">(first taking Green beans)
  Crispy green bean caserole.  Here&apos;s your serving of vegetables for the day.  Even though they&apos;re green, they&apos;re delicious.  The perfect compliment to every holiday meal.
@@ -195,10 +194,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="368">YES</temporary>
     <children>
-      <child nodeId="node-0x1abb0ea0" />
+      <child nodeId="node-0x56d40c0" />
     </children>
   </item>
-  <item nodeId="node-0x1abb0ea0">
+  <item nodeId="node-0x56d40c0">
     <command xml:space="preserve">eat bread pudding</command>
     <result xml:space="preserve">(first taking Bread Pudding)
  Sweet, soft, and still warm.  There are chunks of chewy candied fruits just like mom makes every year.  The understones of cinnamon and allspice permiate the room as you polish off every last bite.
@@ -208,7 +207,7 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="367">YES</temporary>
   </item>
-  <item nodeId="node-0x128c1500">
+  <item nodeId="node-0x56d4130">
     <command xml:space="preserve">x dining table</command>
     <result xml:space="preserve"> A circular oak dining table with four legs, supporting a christmast feast.
 
@@ -219,10 +218,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="358">YES</temporary>
     <children>
-      <child nodeId="node-0xddc44d0" />
+      <child nodeId="node-0x56d41a0" />
     </children>
   </item>
-  <item nodeId="node-0xddc44d0">
+  <item nodeId="node-0x56d41a0">
     <command xml:space="preserve">x beef roast</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -231,10 +230,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="358">YES</temporary>
     <children>
-      <child nodeId="node-0xe7c93a0" />
+      <child nodeId="node-0x56d4210" />
     </children>
   </item>
-  <item nodeId="node-0xe7c93a0">
+  <item nodeId="node-0x56d4210">
     <command xml:space="preserve">x mashed potatoes</command>
     <result xml:space="preserve">You see nothing special about Mashedpotatoes.
 
@@ -243,7 +242,7 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="357">YES</temporary>
   </item>
-  <item nodeId="node-0x12864a10">
+  <item nodeId="node-0x56d4280">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You need to put on the coat before going to such a cold place.
 
@@ -252,40 +251,50 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="376">YES</temporary>
   </item>
-  <item nodeId="node-0x128baeb0">
-    <command xml:space="preserve">x fuel</command>
-    <result xml:space="preserve"> .
+  <item nodeId="node-0x5c75410">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve"> You examine the curvy lines of the characters, but see nothing that you understand.  Upon closer inspection, you see that there is a line that marks out a rectangle that goes from the floor until your waist.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="353">YES</temporary>
+    <temporary score="375">YES</temporary>
     <children>
-      <child nodeId="node-0x1abc44a0" />
+      <child nodeId="node-0x5c7a7b0" />
+      <child nodeId="node-0x5c7a760" />
     </children>
   </item>
-  <item nodeId="node-0x1abc44a0">
-    <command xml:space="preserve">x roast beef</command>
-    <result xml:space="preserve">I only understood you as far as wanting to examine Roast Turkey.
+  <item nodeId="node-0x5c7a760">
+    <command xml:space="preserve">x stone door</command>
+    <result xml:space="preserve">You see nothing special about the stone door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="353">YES</temporary>
+    <temporary score="374">YES</temporary>
+  </item>
+  <item nodeId="node-0x5c7a7b0">
+    <command xml:space="preserve">push wall</command>
+    <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="372">YES</temporary>
     <children>
-      <child nodeId="node-0x16981bc0" />
+      <child nodeId="node-0x5c7a800" />
     </children>
   </item>
-  <item nodeId="node-0x16981bc0">
-    <command xml:space="preserve">x beef roast</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x5c7a800">
+    <command xml:space="preserve">open wall</command>
+    <result xml:space="preserve">You must supply a noun.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="352">YES</temporary>
+    <temporary score="371">YES</temporary>
   </item>
-  <item nodeId="node-0xddcd070">
+  <item nodeId="node-0x56d44e0">
     <command xml:space="preserve">x food</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -294,10 +303,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="349">YES</temporary>
     <children>
-      <child nodeId="node-0x128c7440" />
+      <child nodeId="node-0x56d4550" />
     </children>
   </item>
-  <item nodeId="node-0x128c7440">
+  <item nodeId="node-0x56d4550">
     <command xml:space="preserve">x ham</command>
     <result xml:space="preserve">You see nothing special about Smoked ham.
 
@@ -306,16 +315,7 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="348">YES</temporary>
   </item>
-  <item nodeId="node-0x194235a0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to hammer that brass key flat again before you can unlock .
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="344">YES</temporary>
-  </item>
-  <item nodeId="node-0x2da430">
+  <item nodeId="node-0x56d4630">
     <command xml:space="preserve">take lamp</command>
     <result xml:space="preserve">Taken.
 
@@ -324,11 +324,11 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x5e0ea50" />
-      <child nodeId="node-0x2da4a0" />
+      <child nodeId="node-0x56d4360" />
+      <child nodeId="node-0x56d46a0" />
     </children>
   </item>
-  <item nodeId="node-0x2da4a0">
+  <item nodeId="node-0x56d46a0">
     <command xml:space="preserve">light lamp</command>
     <result xml:space="preserve">This dangerous act would achieve little.
 
@@ -337,10 +337,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>NO</changed>
     <temporary score="341">YES</temporary>
     <children>
-      <child nodeId="node-0x152f4d10" />
+      <child nodeId="node-0x56d4710" />
     </children>
   </item>
-  <item nodeId="node-0x152f4d10">
+  <item nodeId="node-0x56d4710">
     <command xml:space="preserve">turn on lamp</command>
     <result xml:space="preserve"> You light the lamp in the fire, and you&apos;re happy that it&apos;s buring bright.
 
@@ -349,10 +349,10 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
     <changed>YES</changed>
     <temporary score="341">YES</temporary>
     <children>
-      <child nodeId="node-0x152433a0" />
+      <child nodeId="node-0x56d4780" />
     </children>
   </item>
-  <item nodeId="node-0x152433a0">
+  <item nodeId="node-0x56d4780">
     <command xml:space="preserve">unlock white door with metal key</command>
     <result xml:space="preserve">(first taking the Metal key)
 You unlock the White Door.
@@ -362,11 +362,11 @@ You unlock the White Door.
     <changed>NO</changed>
     <temporary score="341">YES</temporary>
     <children>
-      <child nodeId="node-0xe9c7d20" />
-      <child nodeId="node-0xe6b4360" />
+      <child nodeId="node-0x56d48d0" />
+      <child nodeId="node-0x56d47f0" />
     </children>
   </item>
-  <item nodeId="node-0xe6b4360">
+  <item nodeId="node-0x56d47f0">
     <command xml:space="preserve">open white door</command>
     <result xml:space="preserve">You open the White Door.
 
@@ -375,10 +375,10 @@ You unlock the White Door.
     <changed>NO</changed>
     <temporary score="341">YES</temporary>
     <children>
-      <child nodeId="node-0x152e62d0" />
+      <child nodeId="node-0x56d4860" />
     </children>
   </item>
-  <item nodeId="node-0x152e62d0">
+  <item nodeId="node-0x56d4860">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Toy Room
@@ -393,7 +393,7 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="340">YES</temporary>
   </item>
-  <item nodeId="node-0xe9c7d20">
+  <item nodeId="node-0x56d48d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the White Door)
 
@@ -405,10 +405,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="335">YES</temporary>
     <children>
-      <child nodeId="node-0x152eded0" />
+      <child nodeId="node-0x56d4940" />
     </children>
   </item>
-  <item nodeId="node-0x152eded0">
+  <item nodeId="node-0x56d4940">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Metal key
@@ -423,7 +423,7 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="334">YES</temporary>
   </item>
-  <item nodeId="node-0x5e0ea50">
+  <item nodeId="node-0x56d4360">
     <command xml:space="preserve">turn on lamp</command>
     <result xml:space="preserve"> You light the lamp in the fire, and you&apos;re happy that it&apos;s buring bright.
 
@@ -432,11 +432,11 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x152fa950" />
-      <child nodeId="node-0xe8bc770" />
+      <child nodeId="node-0x56d5fa0" />
+      <child nodeId="node-0x56d43d0" />
     </children>
   </item>
-  <item nodeId="node-0xe8bc770">
+  <item nodeId="node-0x56d43d0">
     <command xml:space="preserve">unlock white door with metal key</command>
     <result xml:space="preserve">(first taking the Metal key)
 You unlock the White Door.
@@ -446,10 +446,10 @@ You unlock the White Door.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x194aba70" />
+      <child nodeId="node-0x56d4440" />
     </children>
   </item>
-  <item nodeId="node-0x194aba70">
+  <item nodeId="node-0x56d4440">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the White Door)
 
@@ -465,11 +465,11 @@ You can also see a White Door and Toybag (empty) here.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe722be0" />
-      <child nodeId="node-0x16986150" />
+      <child nodeId="node-0x56d51a0" />
+      <child nodeId="node-0x56d4bf0" />
     </children>
   </item>
-  <item nodeId="node-0x16986150">
+  <item nodeId="node-0x56d4bf0">
     <command xml:space="preserve">hit key with hammer</command>
     <result xml:space="preserve">Which do you mean, the Metal key, Key Ring, the Silver key or brass key?
 
@@ -478,10 +478,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab91ea0" />
+      <child nodeId="node-0x56d4c60" />
     </children>
   </item>
-  <item nodeId="node-0x1ab91ea0">
+  <item nodeId="node-0x56d4c60">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Which do you mean, the Metal key, Key Ring, the Silver key or brass key?
 
@@ -490,10 +490,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x169e7070" />
+      <child nodeId="node-0x56d4cd0" />
     </children>
   </item>
-  <item nodeId="node-0x169e7070">
+  <item nodeId="node-0x56d4cd0">
     <command xml:space="preserve">take hammer</command>
     <result xml:space="preserve">Taken.
 
@@ -502,10 +502,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0xe636620" />
+      <child nodeId="node-0x56d4d40" />
     </children>
   </item>
-  <item nodeId="node-0xe636620">
+  <item nodeId="node-0x56d4d40">
     <command xml:space="preserve">hit brass key with mini hammer</command>
     <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
 
@@ -514,10 +514,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x194819e0" />
+      <child nodeId="node-0x56d4db0" />
     </children>
   </item>
-  <item nodeId="node-0x194819e0">
+  <item nodeId="node-0x56d4db0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Home Room
@@ -530,10 +530,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0xd6eb250" />
+      <child nodeId="node-0x56d4e20" />
     </children>
   </item>
-  <item nodeId="node-0xd6eb250">
+  <item nodeId="node-0x56d4e20">
     <command xml:space="preserve">unlock hardwood door with brass key</command>
     <result xml:space="preserve">You unlock the Hardwood Door.
 
@@ -542,10 +542,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x1949b640" />
+      <child nodeId="node-0x56d4e90" />
     </children>
   </item>
-  <item nodeId="node-0x1949b640">
+  <item nodeId="node-0x56d4e90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to fix your keys.
 
@@ -554,10 +554,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x1f661ea0" />
+      <child nodeId="node-0x56d4f00" />
     </children>
   </item>
-  <item nodeId="node-0x1f661ea0">
+  <item nodeId="node-0x56d4f00">
     <command xml:space="preserve">open hardwood door</command>
     <result xml:space="preserve">You open the Hardwood Door.
 
@@ -566,10 +566,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab71c50" />
+      <child nodeId="node-0x56d4f70" />
     </children>
   </item>
-  <item nodeId="node-0x1ab71c50">
+  <item nodeId="node-0x56d4f70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to fix your keys.
 
@@ -578,10 +578,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x1942d730" />
+      <child nodeId="node-0x56d4fe0" />
     </children>
   </item>
-  <item nodeId="node-0x1942d730">
+  <item nodeId="node-0x56d4fe0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to fix your keys.
 
@@ -590,10 +590,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x19444d30" />
+      <child nodeId="node-0x56d5050" />
     </children>
   </item>
-  <item nodeId="node-0x19444d30">
+  <item nodeId="node-0x56d5050">
     <command xml:space="preserve">unlock hardwood door with brass key</command>
     <result xml:space="preserve">That&apos;s unlocked at the moment.
 
@@ -602,10 +602,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0x169ea5f0" />
+      <child nodeId="node-0x56d50c0" />
     </children>
   </item>
-  <item nodeId="node-0x169ea5f0">
+  <item nodeId="node-0x56d50c0">
     <command xml:space="preserve">open hardwood door</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -614,10 +614,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="398">YES</temporary>
     <children>
-      <child nodeId="node-0xd61d770" />
+      <child nodeId="node-0x56d5130" />
     </children>
   </item>
-  <item nodeId="node-0xd61d770">
+  <item nodeId="node-0x56d5130">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to fix your keys.
 
@@ -626,7 +626,7 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="397">YES</temporary>
   </item>
-  <item nodeId="node-0xe722be0">
+  <item nodeId="node-0x56d51a0">
     <command xml:space="preserve">take hammer</command>
     <result xml:space="preserve">Taken.
 
@@ -635,10 +635,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x19407770" />
+      <child nodeId="node-0x56d5210" />
     </children>
   </item>
-  <item nodeId="node-0x19407770">
+  <item nodeId="node-0x56d5210">
     <command xml:space="preserve">hit brass key with hammer</command>
     <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
 
@@ -647,10 +647,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xddd26a0" />
+      <child nodeId="node-0x56d5280" />
     </children>
   </item>
-  <item nodeId="node-0xddd26a0">
+  <item nodeId="node-0x56d5280">
     <command xml:space="preserve">x toybag</command>
     <result xml:space="preserve"> A gigantic bag is as round as a tomato, and goes all the way up to your chest.  It is bright crimpson, and the top is tied with golden string.
 
@@ -659,10 +659,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x194e3ef0" />
+      <child nodeId="node-0x56d52f0" />
     </children>
   </item>
-  <item nodeId="node-0x194e3ef0">
+  <item nodeId="node-0x56d52f0">
     <command xml:space="preserve">take bag</command>
     <result xml:space="preserve"> You pull, and tug, but you can&apos;t move the bag an inch.  What&apos;s in this thing, stones?.
 
@@ -671,10 +671,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1f6a8f80" />
+      <child nodeId="node-0x56d49b0" />
     </children>
   </item>
-  <item nodeId="node-0x1f6a8f80">
+  <item nodeId="node-0x56d49b0">
     <command xml:space="preserve">take toybag</command>
     <result xml:space="preserve"> You pull, and tug, but you can&apos;t move the bag an inch.  What&apos;s in this thing, stones?.
 
@@ -683,10 +683,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1946c8f0" />
+      <child nodeId="node-0x56d4a20" />
     </children>
   </item>
-  <item nodeId="node-0x1946c8f0">
+  <item nodeId="node-0x56d4a20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Home Room
@@ -699,10 +699,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab03540" />
+      <child nodeId="node-0x56d4a90" />
     </children>
   </item>
-  <item nodeId="node-0x1ab03540">
+  <item nodeId="node-0x56d4a90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -715,10 +715,10 @@ You can see a front door and Dining table (on which are Mashed Potatoes, Beef Ro
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe8e01c0" />
+      <child nodeId="node-0x56d4b00" />
     </children>
   </item>
-  <item nodeId="node-0xe8e01c0">
+  <item nodeId="node-0x56d4b00">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve"> A circular oak dining table with four legs, supporting a christmast feast.  On the table there are mashed potatoes, roasted turkey, smoked ham, green beans, bread pudding, and beef roast.
 
@@ -729,10 +729,10 @@ On Dining table are Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread 
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe6c81c0" />
+      <child nodeId="node-0x56d4b70" />
     </children>
   </item>
-  <item nodeId="node-0xe6c81c0">
+  <item nodeId="node-0x56d4b70">
     <command xml:space="preserve">Take beef roast</command>
     <result xml:space="preserve">Taken.
 
@@ -741,10 +741,10 @@ On Dining table are Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread 
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xdd91830" />
+      <child nodeId="node-0x56d5360" />
     </children>
   </item>
-  <item nodeId="node-0xdd91830">
+  <item nodeId="node-0x56d5360">
     <command xml:space="preserve">x mashed potatoes</command>
     <result xml:space="preserve">You see nothing special about Mashed Potatoes.
 
@@ -753,10 +753,10 @@ On Dining table are Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread 
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x19449ef0" />
+      <child nodeId="node-0x56d53d0" />
     </children>
   </item>
-  <item nodeId="node-0x19449ef0">
+  <item nodeId="node-0x56d53d0">
     <command xml:space="preserve">eat mashed potatoes</command>
     <result xml:space="preserve">(first taking Mashed Potatoes)
 You eat Mashed Potatoes. Not bad.
@@ -766,10 +766,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x5e84950" />
+      <child nodeId="node-0x56d5440" />
     </children>
   </item>
-  <item nodeId="node-0x5e84950">
+  <item nodeId="node-0x56d5440">
     <command xml:space="preserve">x roasted turkey</command>
     <result xml:space="preserve"> This 12 lb bird has been roasted to golden brown perfection; makes me want to sample.
 
@@ -778,10 +778,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x16925190" />
+      <child nodeId="node-0x56d54b0" />
     </children>
   </item>
-  <item nodeId="node-0x16925190">
+  <item nodeId="node-0x56d54b0">
     <command xml:space="preserve">eat turkey</command>
     <result xml:space="preserve">(first taking Roasted Turkey)
  The light and dark meat is juicy and delicious.  The crispy skin is slightly salted, and you can smell the aroma of rosemary and thyme.  You eat the entire turkey, you really have the appetite of a true santa.
@@ -791,10 +791,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe6d11f0" />
+      <child nodeId="node-0x56d5520" />
     </children>
   </item>
-  <item nodeId="node-0xe6d11f0">
+  <item nodeId="node-0x56d5520">
     <command xml:space="preserve">x smoked ham</command>
     <result xml:space="preserve"> Smoked ham with some kind of glaze on it.  The ham must be at least 10 lbs, who could eat all this food?.
 
@@ -803,10 +803,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x15290600" />
+      <child nodeId="node-0x56d5590" />
     </children>
   </item>
-  <item nodeId="node-0x15290600">
+  <item nodeId="node-0x56d5590">
     <command xml:space="preserve">eat smoked ham</command>
     <result xml:space="preserve">(first taking Smoked Ham)
  Mmm, smoked elven ham, glazed with mustard and honey.  The sugars have carmelized on the outside of the meat, and the bone keeps in all the juices.  How can you eat so much?
@@ -816,10 +816,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe6d4190" />
+      <child nodeId="node-0x56d5600" />
     </children>
   </item>
-  <item nodeId="node-0xe6d4190">
+  <item nodeId="node-0x56d5600">
     <command xml:space="preserve">x green beans</command>
     <result xml:space="preserve"> Green bean caserole fresh from the oven.  It looks dangerously delicious with all those fried onions on top.
 
@@ -828,10 +828,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x2030e070" />
+      <child nodeId="node-0x56d5670" />
     </children>
   </item>
-  <item nodeId="node-0x2030e070">
+  <item nodeId="node-0x56d5670">
     <command xml:space="preserve">eat beans</command>
     <result xml:space="preserve">(first taking Green Beans)
  Crispy green bean caserole.  Here&apos;s your serving of vegetables for the day.  Even though they&apos;re green, they&apos;re delicious.  The perfect compliment to every holiday meal.
@@ -841,10 +841,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1f61a0a0" />
+      <child nodeId="node-0x56d56e0" />
     </children>
   </item>
-  <item nodeId="node-0x1f61a0a0">
+  <item nodeId="node-0x56d56e0">
     <command xml:space="preserve">x pudding</command>
     <result xml:space="preserve"> Christmas bread pudding; mmm, it smells like cinnamon.
 
@@ -853,10 +853,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1526eb80" />
+      <child nodeId="node-0x56d5750" />
     </children>
   </item>
-  <item nodeId="node-0x1526eb80">
+  <item nodeId="node-0x56d5750">
     <command xml:space="preserve">eat pudding</command>
     <result xml:space="preserve">(first taking Bread Pudding)
  Sweet, soft, and still warm.  There are chunks of chewy candied fruits just like how mom makes every year.  The undertones of cinnamon and allspice permiate the room as you polish off every last bite.
@@ -866,10 +866,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x194845c0" />
+      <child nodeId="node-0x56d57c0" />
     </children>
   </item>
-  <item nodeId="node-0x194845c0">
+  <item nodeId="node-0x56d57c0">
     <command xml:space="preserve">x roast</command>
     <result xml:space="preserve"> A huge hunk of meat, seared and roasted to perfection.  The Beef Roast is crusted with salt, pepper, garlic, and oregano.  There&apos;s so much food, maybe you should save this dish for later.
 
@@ -878,10 +878,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x194c2690" />
+      <child nodeId="node-0x56d5830" />
     </children>
   </item>
-  <item nodeId="node-0x194c2690">
+  <item nodeId="node-0x56d5830">
     <command xml:space="preserve">x beef roast</command>
     <result xml:space="preserve"> A huge hunk of meat, seared and roasted to perfection.  The Beef Roast is crusted with salt, pepper, garlic, and oregano.  There&apos;s so much food, maybe you should save this dish for later.
 
@@ -890,10 +890,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x20305970" />
+      <child nodeId="node-0x56d58a0" />
     </children>
   </item>
-  <item nodeId="node-0x20305970">
+  <item nodeId="node-0x56d58a0">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve"> A circular oak dining table with four legs, supporting a christmast feast.  On the table there are mashed potatoes, roasted turkey, smoked ham, green beans, bread pudding, and beef roast.
 
@@ -902,10 +902,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x128565c0" />
+      <child nodeId="node-0x56d5910" />
     </children>
   </item>
-  <item nodeId="node-0x128565c0">
+  <item nodeId="node-0x56d5910">
     <command xml:space="preserve">x Beef Roast</command>
     <result xml:space="preserve"> A huge hunk of meat, seared and roasted to perfection.  The Beef Roast is crusted with salt, pepper, garlic, and oregano.  There&apos;s so much food, maybe you should save this dish for later.
 
@@ -914,10 +914,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe6b8830" />
+      <child nodeId="node-0x56d5980" />
     </children>
   </item>
-  <item nodeId="node-0xe6b8830">
+  <item nodeId="node-0x56d5980">
     <command xml:space="preserve">Take beef roast</command>
     <result xml:space="preserve">You already have that.
 
@@ -926,10 +926,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe6f1f30" />
+      <child nodeId="node-0x56d59f0" />
     </children>
   </item>
-  <item nodeId="node-0xe6f1f30">
+  <item nodeId="node-0x56d59f0">
     <command xml:space="preserve">eat beef roast</command>
     <result xml:space="preserve"> Remember what santa said in his letter? You&apos;ll need some food later on.  Why don&apos;t you dig into some of the other stuff.
 
@@ -938,10 +938,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x2035db10" />
+      <child nodeId="node-0x56d5a60" />
     </children>
   </item>
-  <item nodeId="node-0x2035db10">
+  <item nodeId="node-0x56d5a60">
     <command xml:space="preserve">x fuel</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -950,10 +950,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe69b0b0" />
+      <child nodeId="node-0x56d5ad0" />
     </children>
   </item>
-  <item nodeId="node-0xe69b0b0">
+  <item nodeId="node-0x56d5ad0">
     <command xml:space="preserve">x roast</command>
     <result xml:space="preserve"> A huge hunk of meat, seared and roasted to perfection.  The Beef Roast is crusted with salt, pepper, garlic, and oregano.  There&apos;s so much food, maybe you should save this dish for later.
 
@@ -962,10 +962,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x169b6bc0" />
+      <child nodeId="node-0x56d5b40" />
     </children>
   </item>
-  <item nodeId="node-0x169b6bc0">
+  <item nodeId="node-0x56d5b40">
     <command xml:space="preserve">take roast</command>
     <result xml:space="preserve">You already have that.
 
@@ -974,10 +974,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x169326b0" />
+      <child nodeId="node-0x56d5bb0" />
     </children>
   </item>
-  <item nodeId="node-0x169326b0">
+  <item nodeId="node-0x56d5bb0">
     <command xml:space="preserve">eat roast</command>
     <result xml:space="preserve"> Remember what santa said in his letter? You&apos;ll need some food later on.  Why don&apos;t you dig into some of the other stuff.
 
@@ -986,10 +986,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab29d90" />
+      <child nodeId="node-0x56d5c20" />
     </children>
   </item>
-  <item nodeId="node-0x1ab29d90">
+  <item nodeId="node-0x56d5c20">
     <command xml:space="preserve">eat mashed potatoes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -998,10 +998,10 @@ You eat Mashed Potatoes. Not bad.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab50690" />
+      <child nodeId="node-0x56d5c90" />
     </children>
   </item>
-  <item nodeId="node-0x1ab50690">
+  <item nodeId="node-0x56d5c90">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen
  The heat of the hearth in the home room is felt even here in the kitchen.  The walls are made of red brick, and there is a dining table laden with food.  The east wall has some characters carved into the wall.  To the north is the front door of the house.
@@ -1013,10 +1013,10 @@ You can see a front door and Dining table here.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x1949f5b0" />
+      <child nodeId="node-0x56d5d00" />
     </children>
   </item>
-  <item nodeId="node-0x1949f5b0">
+  <item nodeId="node-0x56d5d00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Home Room
@@ -1029,10 +1029,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x203e23f0" />
+      <child nodeId="node-0x56d5d70" />
     </children>
   </item>
-  <item nodeId="node-0x203e23f0">
+  <item nodeId="node-0x56d5d70">
     <command xml:space="preserve">unlock gate with silver key</command>
     <result xml:space="preserve">(first taking the Silver key)
 You unlock the Gate.
@@ -1042,10 +1042,10 @@ You unlock the Gate.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x203d1c10" />
+      <child nodeId="node-0x56d5de0" />
     </children>
   </item>
-  <item nodeId="node-0x203d1c10">
+  <item nodeId="node-0x56d5de0">
     <command xml:space="preserve">open gate</command>
     <result xml:space="preserve"> You are greeted by a cold blast of artic air that chills you to the core.  You&apos;re definately going to need some protection against the elements.  After all, you&apos;re only wearing a t-shirt and shorts..
 
@@ -1054,10 +1054,10 @@ You unlock the Gate.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x12886b10" />
+      <child nodeId="node-0x56d5e50" />
     </children>
   </item>
-  <item nodeId="node-0x12886b10">
+  <item nodeId="node-0x56d5e50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You need to put on the coat before going to such a cold place.
 
@@ -1066,10 +1066,10 @@ You unlock the Gate.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0xe70fcd0" />
+      <child nodeId="node-0x56d5ec0" />
     </children>
   </item>
-  <item nodeId="node-0xe70fcd0">
+  <item nodeId="node-0x56d5ec0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 toy room
@@ -1082,10 +1082,10 @@ You can see a White Door and Toybag (empty) here.
     <changed>NO</changed>
     <temporary score="1219">YES</temporary>
     <children>
-      <child nodeId="node-0x2084c520" />
+      <child nodeId="node-0x56d5f30" />
     </children>
   </item>
-  <item nodeId="node-0x2084c520">
+  <item nodeId="node-0x56d5f30">
     <command xml:space="preserve">take toybag</command>
     <result xml:space="preserve"> You pull, and tug, but you can&apos;t move the bag an inch.  What&apos;s in this thing, stones?.
 
@@ -1094,7 +1094,7 @@ You can see a White Door and Toybag (empty) here.
     <changed>NO</changed>
     <temporary score="1218">YES</temporary>
   </item>
-  <item nodeId="node-0x152fa950">
+  <item nodeId="node-0x56d5fa0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the White Door)
 It seems to be locked.
@@ -1104,11 +1104,11 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0xd6041c0" />
-      <child nodeId="node-0xe9ef310" />
+      <child nodeId="node-0x56d66a0" />
+      <child nodeId="node-0x56d6010" />
     </children>
   </item>
-  <item nodeId="node-0xe9ef310">
+  <item nodeId="node-0x56d6010">
     <command xml:space="preserve">take hammer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1117,10 +1117,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab9ae30" />
+      <child nodeId="node-0x56d6080" />
     </children>
   </item>
-  <item nodeId="node-0x1ab9ae30">
+  <item nodeId="node-0x56d6080">
     <command xml:space="preserve">open white door with metal key</command>
     <result xml:space="preserve">(first taking the Metal key)
 You unlock the White Door.
@@ -1130,10 +1130,10 @@ You unlock the White Door.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0xd6b81f0" />
+      <child nodeId="node-0x56d60f0" />
     </children>
   </item>
-  <item nodeId="node-0xd6b81f0">
+  <item nodeId="node-0x56d60f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the White Door)
 
@@ -1149,10 +1149,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x128db0f0" />
+      <child nodeId="node-0x56d6160" />
     </children>
   </item>
-  <item nodeId="node-0x128db0f0">
+  <item nodeId="node-0x56d6160">
     <command xml:space="preserve">take hammer</command>
     <result xml:space="preserve">Taken.
 
@@ -1161,10 +1161,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0xd69fa40" />
+      <child nodeId="node-0x56d61d0" />
     </children>
   </item>
-  <item nodeId="node-0xd69fa40">
+  <item nodeId="node-0x56d61d0">
     <command xml:space="preserve">hit key with hammer</command>
     <result xml:space="preserve">Which do you mean, the Metal key, Key Ring, the Silver key or brass key?
 
@@ -1173,10 +1173,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x1285bf10" />
+      <child nodeId="node-0x56d6240" />
     </children>
   </item>
-  <item nodeId="node-0x1285bf10">
+  <item nodeId="node-0x56d6240">
     <command xml:space="preserve">hit brass key with hammer</command>
     <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
 
@@ -1185,10 +1185,10 @@ You can also see a White Door and Toybag (empty) here.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x169e72b0" />
+      <child nodeId="node-0x56d62b0" />
     </children>
   </item>
-  <item nodeId="node-0x169e72b0">
+  <item nodeId="node-0x56d62b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Home Room
@@ -1201,10 +1201,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0xcdb4a50" />
+      <child nodeId="node-0x56d6320" />
     </children>
   </item>
-  <item nodeId="node-0xcdb4a50">
+  <item nodeId="node-0x56d6320">
     <command xml:space="preserve">unlock hardwood door with brass key</command>
     <result xml:space="preserve">You unlock the Hardwood Door.
 
@@ -1213,10 +1213,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x203526b0" />
+      <child nodeId="node-0x56d6390" />
     </children>
   </item>
-  <item nodeId="node-0x203526b0">
+  <item nodeId="node-0x56d6390">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the Hardwood Door)
 
@@ -1230,10 +1230,10 @@ You can see a Hardwood Door and Coat here.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x2031af90" />
+      <child nodeId="node-0x56d6400" />
     </children>
   </item>
-  <item nodeId="node-0x2031af90">
+  <item nodeId="node-0x56d6400">
     <command xml:space="preserve">take coat</command>
     <result xml:space="preserve">Taken.
 
@@ -1242,10 +1242,10 @@ You can see a Hardwood Door and Coat here.
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x16910f40" />
+      <child nodeId="node-0x56d6470" />
     </children>
   </item>
-  <item nodeId="node-0x16910f40">
+  <item nodeId="node-0x56d6470">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Home Room
@@ -1258,10 +1258,10 @@ You can see a Hardwood Door, a Gate, a White Door and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x152df2a0" />
+      <child nodeId="node-0x56d64e0" />
     </children>
   </item>
-  <item nodeId="node-0x152df2a0">
+  <item nodeId="node-0x56d64e0">
     <command xml:space="preserve">wear coat</command>
     <result xml:space="preserve">You put on Coat.
 
@@ -1270,10 +1270,10 @@ You can see a Hardwood Door, a Gate, a White Door and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x1f6144a0" />
+      <child nodeId="node-0x56d6550" />
     </children>
   </item>
-  <item nodeId="node-0x1f6144a0">
+  <item nodeId="node-0x56d6550">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -1286,10 +1286,10 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x20305900" />
+      <child nodeId="node-0x56d65c0" />
     </children>
   </item>
-  <item nodeId="node-0x20305900">
+  <item nodeId="node-0x56d65c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the front door)
  You are greeted by a cold blast of artic air, but you&apos;re mostly warm becasue of the coat you&apos;re wearing.  Your fingertips are freezing cold, so you shove them deep into your pockets; ah much better.  Ahead of you is the cold wasteland of the artic.  There is a blizzard going on outside, but through the thick drift of snow you can see a dark shape in the distance.
@@ -1299,10 +1299,10 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>YES</changed>
     <temporary score="416">YES</temporary>
     <children>
-      <child nodeId="node-0x1ab47ef0" />
+      <child nodeId="node-0x56d6630" />
     </children>
   </item>
-  <item nodeId="node-0x1ab47ef0">
+  <item nodeId="node-0x56d6630">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Coat (being worn)
@@ -1319,7 +1319,7 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>YES</changed>
     <temporary score="415">YES</temporary>
   </item>
-  <item nodeId="node-0xd6041c0">
+  <item nodeId="node-0x56d66a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -1332,10 +1332,10 @@ You can see a front door and Dining table (on which are Beef roast, Mashed potat
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0x1528f7f0" />
+      <child nodeId="node-0x56d6710" />
     </children>
   </item>
-  <item nodeId="node-0x1528f7f0">
+  <item nodeId="node-0x56d6710">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Home Room
@@ -1348,10 +1348,10 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0xe65a530" />
+      <child nodeId="node-0x56d6780" />
     </children>
   </item>
-  <item nodeId="node-0xe65a530">
+  <item nodeId="node-0x56d6780">
     <command xml:space="preserve">unlock white door with silver key</command>
     <result xml:space="preserve">(first taking the Silver key)
 That doesn&apos;t seem to fit the lock.
@@ -1361,10 +1361,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0xe7bd530" />
+      <child nodeId="node-0x56d67f0" />
     </children>
   </item>
-  <item nodeId="node-0xe7bd530">
+  <item nodeId="node-0x56d67f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Silver key
@@ -1379,10 +1379,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0xe842dc0" />
+      <child nodeId="node-0x56d6860" />
     </children>
   </item>
-  <item nodeId="node-0xe842dc0">
+  <item nodeId="node-0x56d6860">
     <command xml:space="preserve">unlock white door with metal key</command>
     <result xml:space="preserve">(first taking the Metal key)
 You unlock the White Door.
@@ -1392,10 +1392,10 @@ You unlock the White Door.
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0x152c1d50" />
+      <child nodeId="node-0x56d68d0" />
     </children>
   </item>
-  <item nodeId="node-0x152c1d50">
+  <item nodeId="node-0x56d68d0">
     <command xml:space="preserve">open white door</command>
     <result xml:space="preserve">You open the White Door.
 
@@ -1404,10 +1404,10 @@ You unlock the White Door.
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0xe9b1200" />
+      <child nodeId="node-0x56d6940" />
     </children>
   </item>
-  <item nodeId="node-0xe9b1200">
+  <item nodeId="node-0x56d6940">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Darkness
@@ -1418,10 +1418,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="323">YES</temporary>
     <children>
-      <child nodeId="node-0x1281fdf0" />
+      <child nodeId="node-0x56d69b0" />
     </children>
   </item>
-  <item nodeId="node-0x1281fdf0">
+  <item nodeId="node-0x56d69b0">
     <command xml:space="preserve">light lamp</command>
     <result xml:space="preserve">This dangerous act would achieve little.
 
@@ -1430,7 +1430,7 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="322">YES</temporary>
   </item>
-  <item nodeId="node-0x1abb9f80">
+  <item nodeId="node-0x56d6a20">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">You see nothing special about yourself.
 
@@ -1439,7 +1439,16 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="377">YES</temporary>
   </item>
-  <item nodeId="node-0x1ab6a430">
+  <item nodeId="node-0x56d6be0">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="341">YES</temporary>
+  </item>
+  <item nodeId="node-0x56d6a90">
     <command xml:space="preserve">x dark shape</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1448,10 +1457,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="381">YES</temporary>
     <children>
-      <child nodeId="node-0xe664ff0" />
+      <child nodeId="node-0x56d6b00" />
     </children>
   </item>
-  <item nodeId="node-0xe664ff0">
+  <item nodeId="node-0x56d6b00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -1464,10 +1473,10 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>YES</changed>
     <temporary score="381">YES</temporary>
     <children>
-      <child nodeId="node-0x128ec920" />
+      <child nodeId="node-0x56d6b70" />
     </children>
   </item>
-  <item nodeId="node-0x128ec920">
+  <item nodeId="node-0x56d6b70">
     <command xml:space="preserve">go near the elf</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1476,16 +1485,7 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>YES</changed>
     <temporary score="380">YES</temporary>
   </item>
-  <item nodeId="node-0x1527a5d0">
-    <command xml:space="preserve">x window</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="341">YES</temporary>
-  </item>
-  <item nodeId="node-0x152a6580">
+  <item nodeId="node-0x56d6c50">
     <command xml:space="preserve">light lamp</command>
     <result xml:space="preserve">This dangerous act would achieve little.
 
@@ -1494,10 +1494,10 @@ You can see a front door and Dining table (on which are Beef Roast., Mashedpotat
     <changed>YES</changed>
     <temporary score="344">YES</temporary>
     <children>
-      <child nodeId="node-0xe97c6c0" />
+      <child nodeId="node-0x56d6cc0" />
     </children>
   </item>
-  <item nodeId="node-0xe97c6c0">
+  <item nodeId="node-0x56d6cc0">
     <command xml:space="preserve">turn on lamp</command>
     <result xml:space="preserve"> You light the lamp in the fire, and you&apos;re happy that it&apos;s buring bright.
 
