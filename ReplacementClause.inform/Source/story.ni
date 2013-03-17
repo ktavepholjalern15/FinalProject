@@ -96,11 +96,17 @@ Envelope is a closed openable container.  Letter is a thing.  Letter is inside e
 
 The description of player is " You still smell like the poi and kalua pig breakfast you ate last night.  You are wearing a white shirt that says Punahou Computer science and blue P.E. pants.  You're pretty skinny, and have a six pack.  You stand up, ready to look for the toybag not wanting to dissapoint Santa."
 
-Instead of going south:
+[Instead of going south:
 	if player has unlocked hardwood door:
 		continue the action;
-	otherwise:
-		say " Are you going to walk through a hardwood door?  Who do you think you are?  You'll need to fix your keys."
+	If the player has opened the door: 
+		continue the action;
+	If the player has not opened the door:
+		say " Are you going to walk through a hardwood door?  Who do you think you are?.";
+	If the player has not unlocked hardwood door:
+		say " You're going to need the door first silly."]
+
+
 
 Chapter 2
 
@@ -110,7 +116,7 @@ Toy Room is a room.  The Toy room is east of White Door. The description of the 
 
 White Door is a door.  White door is east of the Home Room.  White door is west of Toy Room.  The white door is locked.  The description of the White Door is " A wooden door painted white.  It is made of thick sturdy wood.  Upon closer inspection, you see something etched into the wood.  A picture of reindeer pulling Santa's sleigh through the night sky with a full moon. The picture is intricate, yet smooth to the touch, this must be the handywork of elves."
 
-Toybag is a container. The toybag is in the toy room. The description of the toybag is " A gigantic bag is as round as a tomato, and goes all the way up to your chest.  It is bright crimpson, and the top is tied with golden string." 
+Toybag is a container. The toybag is in the toy room. The description of the toybag is " A gigantic bag is as round as a tomato, and goes all the way up to your chest.  It is bright crimpson, and the top is tied with golden string."  Understand "bag" as toybag.
 
 [Instead of taking toybag:
 	if player is santa:
@@ -163,8 +169,6 @@ Instead of putting something in Rune Holder:
 
 FuelHolder is part of The Santa Transformer.  FuelHolder is a container.  The description of FuelHolder is " This large grove is also carved into the Santa transformer, but it looks more like a shelf for you to place something on."  The carrying capacity of FuelHolder is 1.  Understand "fuel holder" as fuelholder.
 
-Fuel is a thing.  The printed name of fuel is "Roast Beef"
-
 [Instead of putting something in the Fuel Holder:  
 	If the noun is Fuel and the second noun is Fuel Holder:
 		say " You place the [fuel] into the Fuel Holder.  You hear a sound like in Star Treck, where Captain Kirk is being beamed down to a planet, but anyway, the food is slowly dissapearing before your eyes.  As it does this, the Santa transformer has started to buzz and now has a green aura.";
@@ -174,15 +178,29 @@ Fuel is a thing.  The printed name of fuel is "Roast Beef"
 		say " Why would you want to put that into the fuel holder?  That's not fuel for this machine.";
 		Stop the action.]
 
-[How to make inform understand roast beef, mashed potatoes, and beans as fuel]
-
 
 Understand "transformer" or "contraption" as the Santa Transformer.
 
-[After ___ and this goes in the container 1; after ___ goes in container 2;
-	say " ."  The player description is now " ."
-	The player is now outside of Santa Machine.  
-	The food and hair are off stage.]
+[Every turn rule:
+	if Runestone is in Rune Holder;
+		If a fuel is in fuel holder:
+		say " .";
+		Now the Santa Transformer is switched on.
+	
+Every turn rule:
+	If player has casted kenaz:
+		say " A door has appeared, now the santa transformer is open.;
+		the santa transformer is now unlocked."
+	
+Every turn rule:
+	If the Santa transformer is switched on;
+		if player is in Santa transformer:
+			say " You feel a tingling in your belly and on your face, and poof, now you're santa." ;
+			remove max from play.;
+			player is now santa.;
+			move player to santa's office;
+			santa transformer is now locked;
+			the new description of santa transformer is " ."]
 
 Kenaz is a thing.
 Casting Kenaz is an action applying to nothing.  Understand "Kenaz" or "say Kenaz" or "cast Kenaz" as casting Kenaz.  
@@ -190,39 +208,20 @@ Casting Kenaz is an action applying to nothing.  Understand "Kenaz" or "say Kena
 Instead of casting Kenaz: say " You shout the word, and a bright green light flashes from the santa transformer outlining the door.  The Santa transformer can now be opened, but the green light fades away.";
 	Now the Santa Transformer is unlocked;  
 	Now the description of the Santa Transformer is "."
-[rule: can not go inside machine until put food and hair and rune stone into santa transformer and say magic words  how to make something not work until all of the stuff is inside the machine.  ]
-
 
 Chapter 4
 
 Sleigh Room is a room.  The Sleigh Room is west of door.  The description of Sleigh Room is " A room built for a sleigh, and a sleigh there is.  In the middle of the room is huge red Sleigh.  The wood is painted a dark crimpson color, and the edges are lined in gold.  The Sleigh is hooked up to 12 reindeer. To the north is an opening, kind of like a garage door.  You can see that there is a long drop from the entrance.  This house must be on the side of a mountain or something.  You'll need to fly out of here."
 
-[Instead of going north in sleigh room:
-	If player is Santa:
-		if player is not in Santa's Sleigh:
-			say "Even santa can't fly without his sleigh.";
-			end the game in death;
-		otherwise:
-			say "you fly off into the sunset";
-			continue the action;
-	otherwise
-		say " ."]
-	
-[every turn rule:
-	if blanks is in blank;
-	if blanks is in blank; then]
-
-[code for if player puts last thing in transformer then becomes santa]
-
-[ How to make people fall off and die if go north without sleigh]
-
-[ After Santa transformer is on:
-	say " it buzzes to life."
-	now the player is santa]
+Instead of going north in sleigh room:
+	If player is in santa's sleigh:
+		say " you fly off into the twilight sky.";
+		continue the action;
+	otherwise:
+		say "Even santa can't fly without his sleigh.";
+		end the game in death;
 
 Gate is a door.  The Gate is west of the Home Room.  Gate is east of Sleigh Room.  The Gate is locked and lockable.  The description of the gate is " A large silver gate stands infront of you.  Through the vertical posts you feel the night chill of the artic.  You might not be able to go inside because there is no fireplace in there.  You can see that there is a red sleigh in the room behind the gate.  The gate arcs at the top, and there is a big lock holding both sides together."  Understand "silver gate" as the gate.
-
-[cannot go into the sleigh room until wearing a coat]
 
 The description of santa's sleigh is " A jumbo sized sleigh, almost the size of a car.  On the inside you can see a bench with a woolen coushin.  There are reins drooping over the front, and embedded into the dashboard is a stone."
 
@@ -233,13 +232,13 @@ Reindeer is a part of Santa's Sleigh.  The description of Reindeer is " Dasher, 
 Coushin is part of Santa's Sleigh.  The description of Coushin is " It is warm, soft, and furry, just like the carpet you felt inside the house."
 
 Instead of talking to reindeer:
-	say " Are you crazy? Talking to reindeer?."
+	say " Are you the reindeer whisperer?  That's crazy!"
 
-Santa's Sleigh is a thing.  Santa's Sleigh is in the Sleigh Room.  Understand "sleigh" as Santa's Sleigh.  Santa's Sleigh is a vehicle.  Container 3 is part of Santa's Sleigh.  Container 3 is a closed and openable container.  
+Santa's Sleigh is a thing.  Santa's Sleigh is in the Sleigh Room.  Understand "sleigh" as Santa's Sleigh.  Santa's Sleigh is a vehicle.  Dashboard is part of Santa's Sleigh.  Dashboard is a container.  
 
 Runestone is a thing.  Understand "stone" as runestone.  Runestone is in dashboard.  The description of Runestone is " The stone is oval in shape and primarily dark grey.  There are green cracks running through it, which emit a green light."  The description of dashboard is " The front of the sleigh has leather reigns drooping over it, and there is a mysterious stone held inside."
 
-Chapter 5
+[Chapter 5
 
 Bedroom is a room.  The Bedroom is west of the Santa's Office.  The description of Bedroom is " ."
 
@@ -248,42 +247,83 @@ Bed is a thing in Bedroom.  The description of Bed is " The bed looks like a kin
 Blanket is part of bed.  Pillow is a part of bed.  understand "Maroon blanket" as blanket.  Understand "Pillows" as pillow.  Instead of taking blanket:
 	Say " Why would you steal Mr and Mrs Claus' blanket?  Do you want them to be cold at night?."
 Instead of taking pillow:
-	say " Don't take santa's pillow, he's going to have a hard time sleeping at night."
+	say " Don't take santa's pillow, he's going to have a hard time sleeping at night."]
 
 Chapter 6
 
-Sky is a room.  the sky is north of the Sleight Room. The description of the Sky is " You are flying through the night sky in santa's sleigh.  There are barely any couds tonight, and the starts are even brighter than ever.  There is a full moon, and you can your reindeer galloping higher into the sky.  There is a sheep's pasture below you, to the north is Spain, and to the west is Hawaii."
+Sky is a room.  the sky is north of the Sleigh Room. The description of the Sky is " You are flying through the night sky in santa's sleigh.  There are barely any couds tonight, and the starts are even brighter than ever.  There is a full moon, and you can your reindeer galloping higher into the sky.  There is a sheep's pasture below you, to the north is Spain, and to the west is Hawaii."
 
 Max is a man. The player is Max.  
 
-Santa1 is a man.  The printed name is "Santa".  The description of santa1 is " ."
+Santa1 is a man.  The printed name is "Santa".  The description of santa1 is " the big man himself."  Redcoat is a thing.  Redcoat is wearable.  Redcoat is worn by santa1.  the description of redcoat is " Santa's iconic red coat with white lining.  It's just as comfortable as you thought it would be.  It protects you from the cold, and keeps you cool in the heat; there must be something magical about it."  The printed name of redcoat is "red coat."  Understand "red coat" as redcoat. Red pants is a thing.  Red pants is wearable.  Red pants is worn by Santa1.  The description of red pants is " Santa's gotta have a pair of pants.  These long red pants reach all the way down to your boots, and are made from the same red fabric and white lace as your coat."  Santa's boots are a thing.  santa's boots is wearable. Santa's boots are worn by santa1.  Understand "boots" as santa's boots.  The description of santa's boots is " Santa's black boots with a golden buckle.  They keep your feet warm and dry.  They are also as light as a feather, so that you don't make any noise walking on roofs."  Santa's Hat is a thing.  santa's hat is wearable.  Santa's hat is worn by santa1.  Understand "hat" as Santa's hat.  The description of santa's hat is " A santa hat just like you see everyone wearing during christmas, except one thing, it's not itchy, it's not made from plastic, it's one of a kind, and it keeps your head warm.  What more could you ask for?"
 
 Chapter 7
 
-Sheep's Pastures is a room.  The Sheep's Pastures is below the Sleigh Room.  The description of the Sheep's pastures is " A large enclosure full of sheep.  There are wooden walls built around them, and a fire to keep them warm.  Santa must really like sheep.  The sheep are chewing on hay, and doing whatever else it is that sheep do."
+Sheep's Pastures is a room.  The Sheep's Pastures is below the Sleigh Room.  The description of the Sheep's pastures is " A large enclosure full of sheep.  There are wooden walls built around them, and a fire to keep them warm.  Santa must really like sheep.  The sheep are chewing on hay, and doing whatever else it is that sheep do."  Sheep is a thing.  Sheep is in Sheeps pastures.  The description of sheep is " Baaaa goes one of the sheep.  They really look like white balls of fluff.  They must have grown extra fur because of the cold winters.  The ones that have short horns are probably the males."
 
 Chapter 8
 
-Kitchen is a room.  The Kitchen is north of the Home Room.  The description of the Kitchen is " The heat of the hearth in the home room is felt even in the kitchen.  The walls are made of red brick, and there is a dinging table laden with food.  The east wall has some characters carved into the wall that you are unable to understand. "
+Fuel is a kind of thing.  Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread Pudding, and Roasted Turkey are fuel.
 
-Dining table is a supporter.  Dining table is in kitchen.  Fuel is on the dining table.  Mashedpotatoes is a thing. Understand "Potatoes" as the Mashedpotatoes.  Mashedpotatoes is on dining table.  Roast Turkey is a thing.  Mashedpotatoes is edible.  Understand "Turkey" as Roast Turkey.  Roast turkey is on Dining table.  Roast Turkey is edible.  Smoked ham is a thing.  Understand "ham" as smoked ham.  Smoked ham is edible.  Smoked ham is on dining table.  Green beans is a thing.  Green beans is edible.  Understand "Beans" as the green beans.  Beans is on dining table.  Bread Pudding is a thing.  Bread Pudding is edible.  Understand "pudding" or "bread" as Bread Pudding.  Bread Pudding is on Dining table.  Understand "Mashed Potatoes" as mashedpotatoes.
+Kitchen is a room.  The Kitchen is north of the Home Room.  The description of the Kitchen is " The heat of the hearth in the home room is felt even here in the kitchen.  The walls are made of red brick, and there is a dining table laden with food.  The east wall has some characters carved into the wall.  To the north is the front door of the house."
 
-Instead of eating fuel:
-	say " Remember what santa said in his letter? You'll need some food later on.  Why don't you dig into some of this other stuff."
+Dining table is a supporter.  Dining table is in kitchen.  Mashed potatoes is a thing. Understand "Potatoes" as the Mashed potatoes.  Mashed potatoes is on dining table.  Roast Turkey is a thing.  Mashed potatoes is edible.  Understand "Turkey" as Roasted Turkey.  Roasted turkey is on Dining table.  Roasted Turkey is edible.  Smoked ham is a thing.  Understand "ham" as smoked ham.  Smoked ham is edible.  Smoked ham is on dining table.  Green beans is a thing.  Green beans is edible.  Understand "Beans" as the green beans.  Beans is on dining table.  Bread Pudding is a thing.  Bread Pudding is edible.  Understand "pudding" or "bread" as Bread Pudding.  Bread Pudding is on Dining table.  beef roast is a thing. beef roast is on the dining table.  Understand "roast" as beef roast.
 
-Instead of eating Mashedpotatoes:
-	say " .";
-	Remove Mashedpotatoes from play.
+The description of the dining table is " A circular oak dining table with four legs, supporting a christmast feast.  On the table there are mashed potatoes, roasted turkey, smoked ham, green beans, bread pudding, and beef roast."
+
+Instead of eating beef roast:
+	say " Remember what santa said in his letter? You'll need some food later on.  Why don't you dig into some of the other stuff."
+
+The description of beef roast is " A huge hunk of meat, seared and roasted to perfection.  The Beef Roast is crusted with salt, pepper, garlic, and oregano.  There's so much food, maybe you should save this dish for later."
+
+Instead of eating mashedpotatoes:
+	say " Creamy, buttery, and salty with the aftertaste of roasted garlic.  Just what holiday mashed potatoes should taste like.";
+	Remove mashedpotatoes from play.
+	
+The description of mashedpotatoes is " A bowl of white mashed potatoes; it smells delicious."
+
+Instead of eating Roasted Turkey:
+	say " The light and dark meat is juicy and delicious.  The crispy skin is slightly salted, and you can smell the aroma of rosemary and thyme.  You eat the entire turkey, you really have the appetite of a true santa.";
+	remove Roasted Turkey from play.
+
+The description of the Roasted Turkey is " This 12 lb bird has been roasted to golden brown perfection; makes me want to sample."
+
+Instead of eating Smoked Ham:
+	say " Mmm, smoked elven ham, glazed with mustard and honey.  The sugars have carmelized on the outside of the meat, and the bone keeps in all the juices.  How can you eat so much?";
+	Remove Smoked Ham from Play
+	
+The description of Smoked Ham is " Smoked ham with some kind of glaze on it.  The ham must be at least 10 lbs, who could eat all this food?."
+
+Instead of eating Green Beans:
+	say " Crispy green bean caserole.  Here's your serving of vegetables for the day.  Even though they're green, they're delicious.  The perfect compliment to every holiday meal.";
+	Remove Green Beans from play.
+	
+The description of Green Beans is " Green bean caserole fresh from the oven.  It looks dangerously delicious with all those fried onions on top."
+	
+Instead of eating Bread Pudding:
+	say " Sweet, soft, and still warm.  There are chunks of chewy candied fruits just like how mom makes every year.  The undertones of cinnamon and allspice permiate the room as you polish off every last bite.";
+	Remove bread pudding from play.
+	
+The description of the Bread Pudding is " Christmas bread pudding; mmm, it smells like cinnamon."
 
 Chapter 9
 
 Elf's Room is a room.  The Elf's Room is east of the stone door.  The description of the Elf's Room is " After opening the stone door, you reveal a room dimly lit by the light from the kitchen.  There is an elf here sleeping in a hammock.  He seems to be sleeping soundly."  
-Stone door is a secret door.  Stone door is east of the kitchen.  Stone door is west of elf's room.  
+Stone door is a secret door.  Stone door is east of the kitchen.  Stone door is west of elf's room.  Stone door is an unlocked door.
 
 Understand "examine characters" or "x characters"  as examining wall. Examining Wall is an action applying to one thing.  
 Instead of examining the wall:
 	now stone door is revealed;
-	say " You examine the curvy lines of the characters, but see nothing that you understand.  Upon closer inspection, you see that there is a line that marks out a rectangle that goes from the floor until your waist.."
+	say " You examine the curvy lines of the characters, but see nothing that you understand.  Upon closer inspection, you see that there is a line that marks out a rectangle that goes from the floor until your waist."
+	
+the description of the stone door is " A secret stone door, I wonder what's behind it, do you want to push it open?"
+
+After examining the stone door:
+	say " A secret stone door, I wonder what's behind it, do you want to push it open?";
+	If the player consents:
+		say " With some effort, you push at the stone door.  At first it doesn't budge, but on the second try you hear the grinding of stone against stone, and soon the door swings to the left revealing an unlit room..";
+	Otherwise:
+		say " You turn a blind eye to the markings, do you usually do that , and do you think it's a good habit?."
 	
 Understand "Push wall" or "open door" or "push door" or "open wall" as opening stone door.  Opening stone door is an action applying to one thing.
 
@@ -326,26 +366,38 @@ use no scoring.
 
 Chapter 11
 
-[The front door is a door.  The front door leads to a room.  Antartica is a room.  The description of antartica is " ."  Igloo is a container in antartica.  The description of the Igloo is " ."  The eskimo is a man.  The eskimo is in the Igloo.  Table.]
-[can go outside and live with the eskimoes]
+The front door is a door.  The front door is north of the kitchen.  Artic is a room.  Artic is north of the front door.  The description of artic is " ."  Igloo is a container in the artic.  The eskimo is a man.  The eskimo is in the Igloo. 
 
 The front door is a door.  The front door is north of the kitchen.  The description of the front door is " ."
 
-Antartica is a room.  Antartica is north of the front door.  The description of Antartica is " there is an igloo."
-
 Igloo is scenery.  Igloo is a container.  The description of Igloo is " ."  Eskimo is a man.  Eskimo is in Igloo.
+
+Instead of opening front door:
+	if player is not wearing coat:
+		say " You are greeted by a cold blast of artic air that chills you to the core.  You're definately going to need some protection against the elements.  After all, you're only wearing a t-shirt and shorts.";
+	otherwise:
+		say " You are greeted by a cold blast of artic air, but you're mostly warm becasue of the coat you're wearing.  Your fingertips are freezing cold, so you shove them deep into your pockets; ah much better.  Ahead of you is the cold wasteland of the artic.  There is a blizzard going on outside, but through the thick drift of snow you can see a dark shape in the distance."
+		
+Instead of opening gate: 
+	if player is not wearing coat:
+		say " You are greeted by a cold blast of artic air that chills you to the core.  You're definately going to need some protection against the elements.  After all, you're only wearing a t-shirt and shorts..";
+	otherwise:
+		say " You are greeted by a cold blast of artic air, but you're mostly warm becasue of the coat you're wearing.  Your fingertips are freezing cold, so you shove them deep into your pockets; ah much better.  Ahead of you is the sleigh room."
+		
+Dark shape is scenery.  Dark shape is in the Artic.  description of the dark shape is "Dark and shadowy.  A shape in the distance that eats away at your curiosity.  It seems to be in the shape of a hemisphere."
 
 Table of Eskimo
 topic	reply
 "hello"	"Hi";
 	
-[if the player consents: 
-	say " you live out the rest of the winter with an eskimo";
-	end the game in victory.;
-otherwise:
-	say "Why not?  I don't bite"]
-	
-
+After entering igloo for the first time:
+	say " An eskimo is here, and he asks, 'uh, need place to stay? uh, want stay with me?' and waits for you to answer yes or no.";
+	If the player consents:
+		say " The eskimo nods and gets busy making a place for you.  You live out the winter of 2013 sharing an igloo with this eskimo.  You survive eating dried fish and whale blubber, a truly memorable winter vacation.";
+		end the game in victory;
+	otherwise:
+		say " After refusing the eskimo's kind offer, you try to find your way back to the house, but by this time the blizzard has picked up, making impossible to see 10 feet infront of you.  You backtrack for 30 minutes, but can't seem to find the house.  Maybe it was a little more to the left, or maybe the right.  After 12 hours, you are completely frozen.  This all leads you to question, was it ever there at all?";
+		End the game in death.
 
 Coat is a thing.  The coat is wearable.  The description of the coat is " Hanging on the opposite wall hangs a brown leather coat, it could help you keep warm through the winter."   The coat is in Santa's Office.  Understand "brown leather coat" as coat.
 
@@ -360,10 +412,6 @@ Instead of going to cold:
 		continue the action.
 
 Presents is a thing.
-
-[At every turn rule:
-	If the player said yes to live with the eskimo:
-		say " you live out your winter with the eskimo, eating sardines out of the cold atlantic water."]
 			
 [At every turn rule:
 	if player has delivered presents;
