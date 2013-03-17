@@ -12,7 +12,7 @@
 
 ReplacementClause
 An Interactive Fiction by Makana Tavepholjalern
-Release 1 / Serial number 130313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130316 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Home Room
  A beautifully old fashioned room with red brick walls.  The carpet is made of unbleached wool, and is soft and comforting to the touch.  There is a fireplace in the north facing wall.  The fire within the hearth is buringing merrily, and you can feel its gentle warmth.  Above it, there is a lamp hanging on the wall. Looking around, there is a gate to the west, a hardwood door to the south, a white door to the east, and an open door to the north through which you can smell roasting root vegitables.
@@ -22,14 +22,17 @@ You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in wh
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="187">NO</temporary>
+    <temporary score="346">NO</temporary>
     <children>
       <child nodeId="node-0xe7b4b50" />
+      <child nodeId="node-0xe67eb00" />
+      <child nodeId="node-0x152a6580" />
+      <child nodeId="node-0x1527a5d0" />
+      <child nodeId="node-0xe6c1640" />
       <child nodeId="node-0x2da8c0" />
       <child nodeId="node-0x2da430" />
       <child nodeId="node-0x2ae140" />
-      <child nodeId="node-0x259e90" />
-      <child nodeId="node-0x2d9fa0" />
+      <child nodeId="node-0x194235a0" />
       <child nodeId="node-0xcd1e310" />
     </children>
   </item>
@@ -37,27 +40,485 @@ You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in wh
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
- .
+ The heat of the hearth in the home room is felt even in the kitchen.  The walls are made of red brick, and there is a dinging table laden with food.  The east wall has some characters carved into the wall that you are unable to understand. 
 
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="180">YES</temporary>
-    <children>
-      <child nodeId="node-0x2989f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2989f0">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve"> .
+You can see a front door and Dining table (on which are Roast Beef, Mashed potatoes, Roast Turkey, Smoked ham, Green beans and Bread Pudding) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="179">YES</temporary>
+    <temporary score="345">YES</temporary>
+    <children>
+      <child nodeId="node-0x2989f0" />
+      <child nodeId="node-0x152aba80" />
+    </children>
+  </item>
+  <item nodeId="node-0x152aba80">
+    <command xml:space="preserve">take mashed potatoes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x169f71b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169f71b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Home Room
+ A beautifully old fashioned room with red brick walls.  The carpet is made of unbleached wool, and is soft and comforting to the touch.  There is a fireplace in the north facing wall.  The fire within the hearth is buringing merrily, and you can feel its gentle warmth.  Above it, there is a lamp hanging on the wall. Looking around, there is a gate to the west, a hardwood door to the south, a white door to the east, and an open door to the north through which you can smell roasting root vegitables.
+
+You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in which is a Fire) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x169ae160" />
+    </children>
+  </item>
+  <item nodeId="node-0x169ae160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe748c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe748c90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Mashed potatoes
+  Envelope (closed)
+  Key Ring
+    a Silver key
+    brass key
+    a Metal key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe763670" />
+    </children>
+  </item>
+  <item nodeId="node-0xe763670">
+    <command xml:space="preserve">unlock white door with silver key</command>
+    <result xml:space="preserve">(first taking the Silver key)
+That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe980eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe980eb0">
+    <command xml:space="preserve">unlock white door with metal key</command>
+    <result xml:space="preserve">(first taking the Metal key)
+You unlock the White Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe615120" />
+    </children>
+  </item>
+  <item nodeId="node-0xe615120">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe606150" />
+    </children>
+  </item>
+  <item nodeId="node-0xe606150">
+    <command xml:space="preserve">take lamp</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xd61f2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd61f2c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Home Room
+ A beautifully old fashioned room with red brick walls.  The carpet is made of unbleached wool, and is soft and comforting to the touch.  There is a fireplace in the north facing wall.  The fire within the hearth is buringing merrily, and you can feel its gentle warmth.  Above it, there is a lamp hanging on the wall. Looking around, there is a gate to the west, a hardwood door to the south, a white door to the east, and an open door to the north through which you can smell roasting root vegitables.
+
+You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in which is a Fire) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ef5200" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ef5200">
+    <command xml:space="preserve">take lamp</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe78ed00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe78ed00">
+    <command xml:space="preserve">light lamp with fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x128509d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x128509d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe656810" />
+    </children>
+  </item>
+  <item nodeId="node-0xe656810">
+    <command xml:space="preserve">x fireplace</command>
+    <result xml:space="preserve">In the Fireplace is a Fire.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x152ebfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152ebfd0">
+    <command xml:space="preserve">light lamp with fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9d4900" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9d4900">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x9ac7f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9ac7f10">
+    <command xml:space="preserve">take fire</command>
+    <result xml:space="preserve">You&apos;re gonna carry that with your bare hands? Try looking around for something you can light instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x1525a3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1525a3e0">
+    <command xml:space="preserve">light lamp with fireplace</command>
+    <result xml:space="preserve">You can&apos;t light anything with that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x169df9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169df9d0">
+    <command xml:space="preserve">light lamp with fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x152ebbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152ebbc0">
+    <command xml:space="preserve">open fireplace</command>
+    <result xml:space="preserve">That&apos;s not something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x1529a290" />
+    </children>
+  </item>
+  <item nodeId="node-0x1529a290">
+    <command xml:space="preserve">light lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9d85e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9d85e0">
+    <command xml:space="preserve">light lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd72250" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd72250">
+    <command xml:space="preserve">light lamp with fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xe70d920" />
+    </children>
+  </item>
+  <item nodeId="node-0xe70d920">
+    <command xml:space="preserve">light the lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x152f8ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152f8ec0">
+    <command xml:space="preserve">x lamp</command>
+    <result xml:space="preserve"> Hanging from the wall is a lamp.  This one looks like a really old fashioned brass one.  There is a curvy brass handle at the top, and a container of oil with a wick sticking out.  The wick is surrounded by an oblong piece of hollow glass with an opening on the top for ventilation.  Pretty cool indeed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x152d0de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152d0de0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xd63e900" />
+    </children>
+  </item>
+  <item nodeId="node-0xd63e900">
+    <command xml:space="preserve">lit</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd0f260" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd0f260">
+    <command xml:space="preserve">ligt</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ead090" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ead090">
+    <command xml:space="preserve">light</command>
+    <result xml:space="preserve">What do you want to light?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x128359f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x128359f0">
+    <command xml:space="preserve">lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x152e1060" />
+    </children>
+  </item>
+  <item nodeId="node-0x152e1060">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="299">YES</temporary>
+    <children>
+      <child nodeId="node-0x15299fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15299fa0">
+    <command xml:space="preserve">light lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="298">YES</temporary>
+  </item>
+  <item nodeId="node-0x2989f0">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve"> You examine the curvy lines of the characters, but see nothing that you understand.  Upon closer inspection, you see that there is a line that marks out a rectangle that goes from the floor until your waist..
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
     <children>
       <child nodeId="node-0xcd4fb30" />
+      <child nodeId="node-0xe8e3bc0" />
     </children>
+  </item>
+  <item nodeId="node-0xe8e3bc0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
+    <children>
+      <child nodeId="node-0xe65e460" />
+    </children>
+  </item>
+  <item nodeId="node-0xe65e460">
+    <command xml:space="preserve">gonear elf</command>
+    <result xml:space="preserve">Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
+    <children>
+      <child nodeId="node-0x1283e830" />
+    </children>
+  </item>
+  <item nodeId="node-0x1283e830">
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(to yourself)
+There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
+    <children>
+      <child nodeId="node-0xe62ecc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe62ecc0">
+    <command xml:space="preserve">hello</command>
+    <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd66ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd66ca0">
+    <command xml:space="preserve">talk to elf</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd82000" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd82000">
+    <command xml:space="preserve">say hello to elf</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
   </item>
   <item nodeId="node-0xcd4fb30">
     <command xml:space="preserve">l</command>
@@ -81,149 +542,14 @@ Kitchen
     <changed>NO</changed>
     <temporary score="175">YES</temporary>
   </item>
-  <item nodeId="node-0x2d9fa0">
+  <item nodeId="node-0x194235a0">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the Hardwood Door)
-It seems to be locked.
+    <result xml:space="preserve"> Are you going to walk through a hardwood door?  Who do you think you are?  You&apos;ll need to hammer that brass key flat again before you can unlock .
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2d9ff0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2d9ff0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the White Door)
-
-Toy Room
- .
-
-On the Worktable is Mini Hammer.
-
-You can also see a White Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da0c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da0c0">
-    <command xml:space="preserve">take hammer</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da110" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da110">
-    <command xml:space="preserve">hit key with hammer</command>
-    <result xml:space="preserve">Which do you mean, the Metal key, brass key or the Silver key?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da160" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da160">
-    <command xml:space="preserve">hit brass key with hammer</command>
-    <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da1b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da1b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Home Room
- .
-
-You can see a White Door, a Hardwood Door and a Gate here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da220" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da220">
-    <command xml:space="preserve">unlock hardwood door with brass key</command>
-    <result xml:space="preserve">You unlock the Hardwood Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da350" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da350">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the Hardwood Door)
-
-Santa&apos;s office
- .
-
-You can see a Hardwood Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da060" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da060">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Santa&apos;s office
- .
-
-You can see a Hardwood Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da3c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2da3c0">
-    <command xml:space="preserve">x santa transformer</command>
-    <result xml:space="preserve">You see nothing special about the Santa Transformer.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="38">YES</temporary>
-  </item>
-  <item nodeId="node-0x259e90">
-    <command xml:space="preserve">take me away</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="344">YES</temporary>
   </item>
   <item nodeId="node-0x2ae140">
     <command xml:space="preserve">e</command>
@@ -237,7 +563,6 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="186">YES</temporary>
     <children>
-      <child nodeId="node-0x2ae190" />
       <child nodeId="node-0xe6b66f0" />
     </children>
   </item>
@@ -303,43 +628,6 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="185">YES</temporary>
   </item>
-  <item nodeId="node-0x2ae190">
-    <command xml:space="preserve">take hammer</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x2ae1e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2ae1e0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Mini Hammer
-  a Metal key
-  brass key
-  a Silver key
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x2d9f50" />
-    </children>
-  </item>
-  <item nodeId="node-0x2d9f50">
-    <command xml:space="preserve">hit brass key with hammer</command>
-    <result xml:space="preserve">You hammer the key back into shape! Now it works. Yay.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-  </item>
   <item nodeId="node-0x2da430">
     <command xml:space="preserve">take lamp</command>
     <result xml:space="preserve">Taken.
@@ -347,9 +635,11 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="50">YES</temporary>
+    <temporary score="341">YES</temporary>
     <children>
       <child nodeId="node-0x2da290" />
+      <child nodeId="node-0x152b73c0" />
+      <child nodeId="node-0x5e0ea50" />
       <child nodeId="node-0x2da4a0" />
     </children>
   </item>
@@ -359,21 +649,34 @@ It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="45">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="341">YES</temporary>
     <children>
+      <child nodeId="node-0x152f4d10" />
       <child nodeId="node-0x2da510" />
     </children>
   </item>
   <item nodeId="node-0x2da510">
     <command xml:space="preserve">light lamp with fire</command>
-    <result xml:space="preserve">&gt;</result>
+    <result xml:space="preserve">I only understood you as far as wanting to light the lamp.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="45">YES</temporary>
+    <temporary score="312">YES</temporary>
     <children>
       <child nodeId="node-0x2da580" />
+      <child nodeId="node-0xe661f90" />
     </children>
+  </item>
+  <item nodeId="node-0xe661f90">
+    <command xml:space="preserve">light the lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="311">YES</temporary>
   </item>
   <item nodeId="node-0x2da580">
     <command xml:space="preserve"></command>
@@ -381,20 +684,273 @@ It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="45">YES</temporary>
-    <children>
-      <child nodeId="node-0x2da5f0" />
-    </children>
+    <changed>NO</changed>
+    <temporary score="302">YES</temporary>
   </item>
-  <item nodeId="node-0x2da5f0">
-    <command xml:space="preserve">take fire</command>
-    <result xml:space="preserve">You&apos;re gonna carry that with your bare hands? Try looking around for something you can light instead.
+  <item nodeId="node-0x152f4d10">
+    <command xml:space="preserve">turn on lamp</command>
+    <result xml:space="preserve"> You light the lamp in the fire, and you&apos;re happy that it&apos;s buring bright.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="44">YES</temporary>
+    <temporary score="341">YES</temporary>
+    <children>
+      <child nodeId="node-0x152433a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152433a0">
+    <command xml:space="preserve">unlock white door with metal key</command>
+    <result xml:space="preserve">(first taking the Metal key)
+You unlock the White Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="341">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9c7d20" />
+      <child nodeId="node-0xe6b4360" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6b4360">
+    <command xml:space="preserve">open white door</command>
+    <result xml:space="preserve">You open the White Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="341">YES</temporary>
+    <children>
+      <child nodeId="node-0x152e62d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152e62d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Toy Room
+ A long room with a worktable stretching all the way down the middle.  This must be where all of the toys are made.  There is also a workbench, which is probably where the elves sit while they are doing their work.  Way down in the corner is a big red bag, and sitting on the table right infront of you is a mini hammer.
+
+On the Worktable is Mini Hammer.
+
+You can also see a White Door and Toybag (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="340">YES</temporary>
+  </item>
+  <item nodeId="node-0xe9c7d20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="335">YES</temporary>
+    <children>
+      <child nodeId="node-0x152eded0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152eded0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Metal key
+  a lamp
+  Envelope (closed)
+  Key Ring
+    a Silver key
+    brass key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="334">YES</temporary>
+  </item>
+  <item nodeId="node-0x5e0ea50">
+    <command xml:space="preserve">turn on lamp</command>
+    <result xml:space="preserve">You switch the lamp on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0x152fa950" />
+    </children>
+  </item>
+  <item nodeId="node-0x152fa950">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0xd6041c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd6041c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+ The heat of the hearth in the home room is felt even in the kitchen.  The walls are made of red brick, and there is a dinging table laden with food.  The east wall has some characters carved into the wall that you are unable to understand. 
+
+You can see a front door and Dining table (on which are Beef roast, Mashed potatoes, Roast Turkey, Smoked ham, Green beans and Bread Pudding) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0x1528f7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1528f7f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Home Room
+ A beautifully old fashioned room with red brick walls.  The carpet is made of unbleached wool, and is soft and comforting to the touch.  There is a fireplace in the north facing wall.  The fire within the hearth is buringing merrily, and you can feel its gentle warmth.  Above it, there is a lamp hanging on the wall. Looking around, there is a gate to the west, a hardwood door to the south, a white door to the east, and an open door to the north through which you can smell roasting root vegitables.
+
+You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a Fire) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0xe65a530" />
+    </children>
+  </item>
+  <item nodeId="node-0xe65a530">
+    <command xml:space="preserve">unlock white door with silver key</command>
+    <result xml:space="preserve">(first taking the Silver key)
+That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0xe7bd530" />
+    </children>
+  </item>
+  <item nodeId="node-0xe7bd530">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Silver key
+  a lamp
+  Envelope (closed)
+  Key Ring
+    brass key
+    a Metal key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0xe842dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe842dc0">
+    <command xml:space="preserve">unlock white door with metal key</command>
+    <result xml:space="preserve">(first taking the Metal key)
+You unlock the White Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0x152c1d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x152c1d50">
+    <command xml:space="preserve">open white door</command>
+    <result xml:space="preserve">You open the White Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9b1200" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9b1200">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="323">YES</temporary>
+    <children>
+      <child nodeId="node-0x1281fdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1281fdf0">
+    <command xml:space="preserve">light lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="322">YES</temporary>
+  </item>
+  <item nodeId="node-0x152b73c0">
+    <command xml:space="preserve">light lamp with fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="308">YES</temporary>
+    <children>
+      <child nodeId="node-0x152543e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x152543e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="308">YES</temporary>
+    <children>
+      <child nodeId="node-0x169a7c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x169a7c20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Gate)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="308">YES</temporary>
+    <children>
+      <child nodeId="node-0x169d51c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169d51c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the White Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="307">YES</temporary>
   </item>
   <item nodeId="node-0x2da290">
     <command xml:space="preserve">i</command>
@@ -448,8 +1004,7 @@ It seems to be locked.
   <item nodeId="node-0x2da8c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
-  Envelope
-    Letter
+  Envelope (closed)
   Key Ring
     a Silver key
     brass key
@@ -458,167 +1013,284 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <temporary score="189">YES</temporary>
     <children>
-      <child nodeId="node-0x2da930" />
+      <child nodeId="node-0xd63aa50" />
     </children>
   </item>
-  <item nodeId="node-0x2da930">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the White Door)
+  <item nodeId="node-0xd63aa50">
+    <command xml:space="preserve">x key ring</command>
+    <result xml:space="preserve">In Key Ring are a Silver key, brass key and a Metal key.
 
-Toy Room
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="188">YES</temporary>
+  </item>
+  <item nodeId="node-0xe6c1640">
+    <command xml:space="preserve">unlock gate with silver key</command>
+    <result xml:space="preserve">(first taking the Silver key)
+You unlock the Gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="207">YES</temporary>
+    <children>
+      <child nodeId="node-0xe721610" />
+    </children>
+  </item>
+  <item nodeId="node-0xe721610">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">You open the Gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="207">YES</temporary>
+    <children>
+      <child nodeId="node-0xd627900" />
+    </children>
+  </item>
+  <item nodeId="node-0xd627900">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
  .
 
-On the Worktable is Mini Hammer.
-
-You can also see a White Door here.
-
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="18">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x2da9a0" />
+      <child nodeId="node-0xe631b40" />
     </children>
   </item>
-  <item nodeId="node-0x2da9a0">
-    <command xml:space="preserve">hit key</command>
-    <result xml:space="preserve">Which do you mean, the Metal key or the Silver key?
+  <item nodeId="node-0xe631b40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Home Room
+ A beautifully old fashioned room with red brick walls.  The carpet is made of unbleached wool, and is soft and comforting to the touch.  There is a fireplace in the north facing wall.  The fire within the hearth is buringing merrily, and you can feel its gentle warmth.  Above it, there is a lamp hanging on the wall. Looking around, there is a gate to the west, a hardwood door to the south, a white door to the east, and an open door to the north through which you can smell roasting root vegitables.
 
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x2daa10" />
-    </children>
-  </item>
-  <item nodeId="node-0x2daa10">
-    <command xml:space="preserve">hit brass key with hammer</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x2daa80" />
-    </children>
-  </item>
-  <item nodeId="node-0x2daa80">
-    <command xml:space="preserve">rules on</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
+You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in which is a Fire) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x2daaf0" />
+      <child nodeId="node-0xe62d8d0" />
     </children>
   </item>
-  <item nodeId="node-0x2daaf0">
-    <command xml:space="preserve">hit brass key with mini hammer</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0xe62d8d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Sleigh Room
+ A room built for a sleigh, and a sleigh there is.  In the middle of the room is huge red Sleigh.  The wood is painted a dark crimpson color, and the edges are lined in gold.  The Sleigh is hooked up to 12 reindeer. To the north is an opening, kind of like a garage door.  You can see that there is a long drop from the entrance.  This house must be on the side of a mountain or something.  You&apos;ll need to fly out of here.
+
+You can see a Gate, a door and santa&apos;s sleigh (empty) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x2dab60" />
+      <child nodeId="node-0xe716040" />
     </children>
   </item>
-  <item nodeId="node-0x2dab60">
-    <command xml:space="preserve">take hammer</command>
-    <result xml:space="preserve">[Rule &quot;can&apos;t take yourself rule&quot; applies.]
-[Rule &quot;can&apos;t take other people rule&quot; applies.]
-[Rule &quot;can&apos;t take component parts rule&quot; applies.]
-[Rule &quot;can&apos;t take people&apos;s possessions rule&quot; applies.]
-[Rule &quot;can&apos;t take items out of play rule&quot; applies.]
-[Rule &quot;can&apos;t take what you&apos;re inside rule&quot; applies.]
-[Rule &quot;can&apos;t take what&apos;s already taken rule&quot; applies.]
-[Rule &quot;can&apos;t take scenery rule&quot; applies.]
-[Rule &quot;can only take things rule&quot; applies.]
-[Rule &quot;can&apos;t take what&apos;s fixed in place rule&quot; applies.]
-[Rule &quot;use player&apos;s holdall to avoid exceeding carrying capacity rule&quot; applies.]
-[Rule &quot;can&apos;t exceed carrying capacity rule&quot; applies.]
-[Rule &quot;standard taking rule&quot; applies.]
-[Rule &quot;standard report taking rule&quot; applies.]
-Taken.
+  <item nodeId="node-0xe716040">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x2dabd0" />
+      <child nodeId="node-0xe627ea0" />
     </children>
   </item>
-  <item nodeId="node-0x2dabd0">
-    <command xml:space="preserve">hit key with hammer</command>
-    <result xml:space="preserve">Which do you mean, the Metal key or the Silver key?
+  <item nodeId="node-0xe627ea0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Sleigh Room
+ A room built for a sleigh, and a sleigh there is.  In the middle of the room is huge red Sleigh.  The wood is painted a dark crimpson color, and the edges are lined in gold.  The Sleigh is hooked up to 12 reindeer. To the north is an opening, kind of like a garage door.  You can see that there is a long drop from the entrance.  This house must be on the side of a mountain or something.  You&apos;ll need to fly out of here.
+
+You can see a Gate, a door and santa&apos;s sleigh (empty) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x2dac40" />
+      <child nodeId="node-0xe66e8f0" />
     </children>
   </item>
-  <item nodeId="node-0x2dac40">
-    <command xml:space="preserve">hit brass key with hammer</command>
+  <item nodeId="node-0xe66e8f0">
+    <command xml:space="preserve">get in sleigh</command>
+    <result xml:space="preserve">You get into santa&apos;s sleigh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="207">YES</temporary>
+    <children>
+      <child nodeId="node-0xe70bff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe70bff0">
+    <command xml:space="preserve">fly sleigh</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+  </item>
+  <item nodeId="node-0x1527a5d0">
+    <command xml:space="preserve">x window</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="341">YES</temporary>
+  </item>
+  <item nodeId="node-0x152a6580">
+    <command xml:space="preserve">light lamp</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="344">YES</temporary>
     <children>
-      <child nodeId="node-0x2da660" />
+      <child nodeId="node-0xe97c6c0" />
     </children>
   </item>
-  <item nodeId="node-0x2da660">
+  <item nodeId="node-0xe97c6c0">
+    <command xml:space="preserve">turn on lamp</command>
+    <result xml:space="preserve"> You light the lamp in the fire, and you&apos;re happy that it&apos;s buring bright.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="343">YES</temporary>
+  </item>
+  <item nodeId="node-0xe67eb00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Gate)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8e9a00" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8e9a00">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">[Rule &quot;print empty inventory rule&quot; applies.]
-[Rule &quot;print standard inventory rule&quot; applies.]
-You are carrying:
-  Mini Hammer
-  a Metal key
-  brass key
-  a Silver key
+    <result xml:space="preserve">You are carrying:
+  Envelope (closed)
+  Key Ring
+    a Silver key
+    brass key
+    a Metal key
 
-[Rule &quot;report other people taking inventory rule&quot; applies.]
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x2da6d0" />
+      <child nodeId="node-0xe6c8830" />
     </children>
   </item>
-  <item nodeId="node-0x2da6d0">
-    <command xml:space="preserve">rules oof</command>
-    <result xml:space="preserve">I only understood you as far as wanting to rules.
+  <item nodeId="node-0xe6c8830">
+    <command xml:space="preserve">open gate with silver key</command>
+    <result xml:space="preserve">(first taking the Silver key)
+You unlock the Gate.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x2da740" />
+      <child nodeId="node-0xe7a8270" />
     </children>
   </item>
-  <item nodeId="node-0x2da740">
-    <command xml:space="preserve">rules off</command>
-    <result xml:space="preserve">Rules tracing now switched off. Type &quot;rules&quot; to switch it on again.
+  <item nodeId="node-0xe7a8270">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">You open the Gate.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="17">YES</temporary>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6342e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6342e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Sleigh Room
+ A room built for a sleigh, and a sleigh there is.  In the middle of the room is huge red Sleigh.  The wood is painted a dark crimpson color, and the edges are lined in gold.  The Sleigh is hooked up to 12 reindeer. To the north is an opening, kind of like a garage door.  You can see that there is a long drop from the entrance.  This house must be on the side of a mountain or something.  You&apos;ll need to fly out of here.
+
+You can see a Gate, a door and santa&apos;s sleigh (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xe616290" />
+    </children>
+  </item>
+  <item nodeId="node-0xe616290">
+    <command xml:space="preserve">get in sleigh</command>
+    <result xml:space="preserve">You get into santa&apos;s sleigh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xe7aabb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe7aabb0">
+    <command xml:space="preserve">take coushin</command>
+    <result xml:space="preserve">That seems to be a part of santa&apos;s sleigh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6c1b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6c1b30">
+    <command xml:space="preserve">take bench</command>
+    <result xml:space="preserve">That seems to be a part of santa&apos;s sleigh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xe63dd20" />
+    </children>
+  </item>
+  <item nodeId="node-0xe63dd20">
+    <command xml:space="preserve">take reindeer</command>
+    <result xml:space="preserve">That seems to be a part of santa&apos;s sleigh.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
   </item>
   <item nodeId="node-0xe7b4b50">
     <command xml:space="preserve">open envelope</command>
