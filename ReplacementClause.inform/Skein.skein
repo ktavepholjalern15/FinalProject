@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x2ae250" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x12886b10" />
+  <activeNode nodeId="node-0x2ae250" />
   <item nodeId="node-0x2ae250">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -11,7 +11,7 @@
 
 ReplacementClause
 An Interactive Fiction by Makana Tavepholjalern
-Release 1 / Serial number 130316 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130317 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Home Room
  A beautifully old fashioned room with red brick walls.  The carpet is made of unbleached wool, and is soft and comforting to the touch.  There is a fireplace in the north facing wall.  The fire within the hearth is buringing merrily, and you can feel its gentle warmth.  Above it, there is a lamp hanging on the wall. Looking around, there is a gate to the west, a hardwood door to the south, a white door to the east, and an open door to the north through which you can smell roasting root vegitables.
@@ -20,8 +20,8 @@ You can see a White Door, a Hardwood Door, a Gate, a lamp and a Fireplace (in wh
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1055">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="1219">NO</temporary>
     <children>
       <child nodeId="node-0x152a6580" />
       <child nodeId="node-0x1527a5d0" />
@@ -322,7 +322,7 @@ On Dining table are Beef Roast., Mashedpotatoes, Roast Turkey, Smoked ham, Green
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x5e0ea50" />
       <child nodeId="node-0x2da4a0" />
@@ -430,7 +430,7 @@ It is pitch dark, and you can&apos;t see a thing.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x152fa950" />
       <child nodeId="node-0xe8bc770" />
@@ -444,7 +444,7 @@ You unlock the White Door.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x194aba70" />
     </children>
@@ -463,7 +463,7 @@ You can also see a White Door and Toybag (empty) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe722be0" />
       <child nodeId="node-0x16986150" />
@@ -633,7 +633,7 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x19407770" />
     </children>
@@ -645,7 +645,7 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xddd26a0" />
     </children>
@@ -657,31 +657,31 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x194e3ef0" />
     </children>
   </item>
   <item nodeId="node-0x194e3ef0">
     <command xml:space="preserve">take bag</command>
-    <result xml:space="preserve">Taken.
+    <result xml:space="preserve"> You pull, and tug, but you can&apos;t move the bag an inch.  What&apos;s in this thing, stones?.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1f6a8f80" />
     </children>
   </item>
   <item nodeId="node-0x1f6a8f80">
     <command xml:space="preserve">take toybag</command>
-    <result xml:space="preserve">You already have that.
+    <result xml:space="preserve"> You pull, and tug, but you can&apos;t move the bag an inch.  What&apos;s in this thing, stones?.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1946c8f0" />
     </children>
@@ -697,7 +697,7 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1ab03540" />
     </children>
@@ -713,7 +713,7 @@ You can see a front door and Dining table (on which are Mashed Potatoes, Beef Ro
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe8e01c0" />
     </children>
@@ -727,7 +727,7 @@ On Dining table are Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe6c81c0" />
     </children>
@@ -739,7 +739,7 @@ On Dining table are Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xdd91830" />
     </children>
@@ -751,7 +751,7 @@ On Dining table are Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x19449ef0" />
     </children>
@@ -764,7 +764,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x5e84950" />
     </children>
@@ -776,7 +776,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x16925190" />
     </children>
@@ -789,7 +789,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe6d11f0" />
     </children>
@@ -801,7 +801,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x15290600" />
     </children>
@@ -814,7 +814,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe6d4190" />
     </children>
@@ -826,7 +826,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x2030e070" />
     </children>
@@ -839,7 +839,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1f61a0a0" />
     </children>
@@ -851,7 +851,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1526eb80" />
     </children>
@@ -864,7 +864,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x194845c0" />
     </children>
@@ -876,7 +876,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x194c2690" />
     </children>
@@ -888,7 +888,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x20305970" />
     </children>
@@ -900,7 +900,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x128565c0" />
     </children>
@@ -912,7 +912,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe6b8830" />
     </children>
@@ -924,7 +924,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe6f1f30" />
     </children>
@@ -936,7 +936,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x2035db10" />
     </children>
@@ -948,7 +948,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0xe69b0b0" />
     </children>
@@ -960,7 +960,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x169b6bc0" />
     </children>
@@ -972,7 +972,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x169326b0" />
     </children>
@@ -984,7 +984,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1ab29d90" />
     </children>
@@ -996,7 +996,7 @@ You eat Mashed Potatoes. Not bad.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1ab50690" />
     </children>
@@ -1011,7 +1011,7 @@ You can see a front door and Dining table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x1949f5b0" />
     </children>
@@ -1027,7 +1027,7 @@ You can see a White Door, a Hardwood Door, a Gate and a Fireplace (in which is a
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x203e23f0" />
     </children>
@@ -1040,7 +1040,7 @@ You unlock the Gate.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x203d1c10" />
     </children>
@@ -1052,7 +1052,7 @@ You unlock the Gate.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1055">YES</temporary>
+    <temporary score="1219">YES</temporary>
     <children>
       <child nodeId="node-0x12886b10" />
     </children>
@@ -1063,8 +1063,36 @@ You unlock the Gate.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1054">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="1219">YES</temporary>
+    <children>
+      <child nodeId="node-0xe70fcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe70fcd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+toy room
+ A long room with a worktable stretching all the way down the middle.  This must be where all of the toys are made.  There is also a workbench, which is probably where the elves sit while they are doing their work.  On the eastern wall is a window looking out into the night. Way down in the corner is a big red bag, and sitting on the table right infront of you is a mini hammer.
+
+You can see a White Door and Toybag (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1219">YES</temporary>
+    <children>
+      <child nodeId="node-0x2084c520" />
+    </children>
+  </item>
+  <item nodeId="node-0x2084c520">
+    <command xml:space="preserve">take toybag</command>
+    <result xml:space="preserve"> You pull, and tug, but you can&apos;t move the bag an inch.  What&apos;s in this thing, stones?.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1218">YES</temporary>
   </item>
   <item nodeId="node-0x152fa950">
     <command xml:space="preserve">e</command>

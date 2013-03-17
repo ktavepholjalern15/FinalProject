@@ -118,13 +118,13 @@ White Door is a door.  White door is east of the Home Room.  White door is west 
 
 Toybag is a container. The toybag is in the toy room. The description of the toybag is " A gigantic bag is as round as a tomato, and goes all the way up to your chest.  It is bright crimpson, and the top is tied with golden string."  Understand "bag" as toybag.
 
-[Instead of taking toybag:
-	if player is santa:
+Instead of taking toybag:
+	if player is santa1:
 		say " You pick up the bag, and despite its size it is as light as a feather.";
 		continue the action;
 	otherwise:
 		say " You pull, and tug, but you can't move the bag an inch.  What's in this thing, stones?.";
-		stop the action.]
+		stop the action.
 
 Mini Hammer is a thing. Understand "hammer" as Mini Hammer. Mini Hammer is on the Worktable.  The description of Mini Hammer is " It would be small for a human hammer, but for an elf, it's perfect for hammering in the metal soles of shoes.  An elf must have forgotten to put it away."
 
@@ -251,7 +251,7 @@ Instead of taking pillow:
 
 Chapter 6
 
-Sky is a room.  the sky is north of the Sleigh Room. The description of the Sky is " You are flying through the night sky in santa's sleigh.  There are barely any couds tonight, and the starts are even brighter than ever.  There is a full moon, and you can your reindeer galloping higher into the sky.  There is a sheep's pasture below you, to the north is Spain, and to the west is Hawaii."
+Sky is a room.  the sky is north of the Sleigh Room. The description of the Sky is " You are flying through the night sky in santa's sleigh.  There are barely any couds tonight, and the starts are even brighter than ever.  There is a full moon, and you can your reindeer galloping higher into the sky.  There is a sheep's pasture below you, to the north is Spain, and to the west is Hawaii.  If you don't understand spanish, you should probably go to Hawaii"
 
 Max is a man. The player is Max.  
 
@@ -351,16 +351,59 @@ Topic	Reply
 "Santa Transformer"	" ."
 "Santa's Sleigh"	" ."
 "How to deliver presents"	" ."
-"Elf"
-
+"Elf"	" My adopted son was a human named Buddy.  All the other elves are on vacation with santa.  But I stayed behind to watch the house, and santa chose me since I have the most experience with humans."
+"spain"	" Spain is a country that santa always delivers presents to.  Do you speak spanish?  Well if not, becoming santa imbues you with the knowlege to understand spanish."
+"magic word"	" to turn on the Santa transformer you must say Kenaz, which literally means torch.  It symbolizes knowlege, intelect, illumination, and searching for enlightenment."
+"password"	" The password for the santa transformer is Kenaz, which literally means torch.  It symbolizes knowlege, intelect, illumination, and searching for enlightenment."
 
 Chapter 10
 
-Spain is a room.  Spain is north of the Sky.  The description of Spain is " ."
+Spain is a region.  El pueblo is in spain.  La chimnea is north of the Sky.   El pueblo is a room.    The description of el pueblo is " Una casa en españa.  Es bastante grande, pero solamente hay una habitación.  En la sala de estar hay un alter for the three wise men."  La chimnea is a door.    La chimnea is above el pueblo. El pueblo is below la chimnea.  the description of la chimnea is " ."  
+	
+		
+after going to spain for the first time:
+	say "I bet you didn't know santa could speak spanish."
 
-Hawaii is a room.  Hawaii is west of the Sky.  The description of Hawaii is " ."
+Hawaii is a region.  House is in hawaii.  House is a room.  Housewindow is west of the Sky.  Housewindow is a door.  Housewindow is east of house.  The description of Housewindow is " A clear glass window.  Well, now I know what santa does if there is no chimney."  The printed name of Housewindow is " window."  The description of house is " A white wooden house with a grey roof."  Christmas tree is scenery.  Understand "tree" as christmas tree.  The description of Christmas tree is " A christmas tree decorated with shiny gold colored figurines and ornaments of all different colors."  
 
-[if player has delivered presents, end the game in victory]
+[Understand "put presents under christmas tree" as dropping the presents. ]
+
+Presents is a thing. The description of presents is " A whole bunch of present in different colors and sizes."
+		
+Instead of opening toybag:
+	If player is not santa1:
+		say "you pull and tug, but the bag won't open";
+		stop the action;
+	if player is santa1:
+		if player in hawaii:
+			say "it opens easily, and here's the presents";
+		otherwise:
+			say "It opens easily, but the bag is empty."
+			
+Instead of opening toybag:
+	if player is not santa1:
+		say " you pull and tug, but the bag won't open.";
+		stop the action;
+	If player is santa1:
+		if player in Spain:
+			say " it opens easily, and here's the presents.";
+		otherwise:
+			say " It opens easily, but the bag is empty."
+	
+	
+			
+every turn rule:
+	If player in el pueblo:
+		if presents in el pueblo:
+			say " you have saved christmas yay!";
+			end the game in victory.
+			
+every turn rule:
+	If player in house:
+		if presents in house:
+			say " You saved christmas, Yay!.";
+			end the game in victory.
+
 
 use no scoring.
 
@@ -410,13 +453,3 @@ Instead of going to cold:
 		stop the action;
 	otherwise:
 		continue the action.
-
-Presents is a thing.
-			
-[At every turn rule:
-	if player has delivered presents;
-			say " you have saved christmas yay!"
-			
-At every turn rule:
-	if player has delivered presents;
-		end the game in victory.]
