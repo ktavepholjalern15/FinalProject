@@ -101,9 +101,12 @@ The description of the metal key is " An ornate metal key with the design of a p
 
 Understand "Take me away"  as Bubbling.  Bubbling is an action out of world.
 
-[Carry out Bubbling: 
-	Open white door.  Opening is an action applying to one thing.]
-
+Carry out Bubbling: 
+	say "poof.";
+	now white door is open;
+	now hardwood door is open;
+	now gate is open;
+	now santa transformer is switched on.
 
 Chapter 1 ~ A Beginning
 	
@@ -198,6 +201,9 @@ Instead of putting something in fuelholder:
 	Otherwise:
 		say " Why would you want to put that into the fuel holder?  That's not fuel for this machine.";
 		Stop the action.
+		
+Instead of taking fuel when fuel is in fuelholder:
+	say " The Santa Transformer has absorbed the food as energy."
 
 Fuel is a kind of thing.  Mashed Potatoes, Beef Roast, Green Beans, Smoked Ham, Bread Pudding, and Roasted Turkey are fuel.
 
@@ -231,14 +237,21 @@ Chapter 4
 Sleigh Room is a room.  The Sleigh Room is west of door.  The description of Sleigh Room is " A room built for a sleigh, and a sleigh there is.  In the middle of the room is huge red Sleigh.  The wood is painted a dark crimson color, and the edges are lined in gold.  The Sleigh is hooked up to 12 reindeer. To the north is an opening, kind of like a garage door.  You can see that there is a long drop from the entrance.  This house must be on the side of a mountain or something.  You'll need to fly out of here."
 
 Instead of going north in sleigh room:
-	If santa1 is in Santa's sleigh:
-		say " you fly off into the twilight sky.";
-		continue the action;
-	otherwise:
-		say "Even Santa can't fly without his sleigh.";
-		end the game in death;
+	If Runestone is in dashboard:
+		If santa1 is in Santa's sleigh:
+			say " you fly off into the twilight sky.";
+			continue the action;
+	If player is santa1:
+		If player is not in santa's sleigh:
+			say "Even Santa can't fly without his sleigh.";
+			end the game in death;
 	If max is in Santa's sleigh:
-		say " This sleigh was not built for humans, only Santa can fly this sleigh."
+		if runestone is in dashboard:
+			say " This sleigh was not built for humans, only Santa can fly this sleigh.";
+			stop the action;
+	If santa1 is in santa's sleigh:
+		if runestone is not in dashboard:
+			say " You crack the whip, and the reindeer pull, but the sleigh doesn't go anywhere.  You're going to need to need some extra power to power the sleigh."
 		
 [Understand "fly sleigh" or "fly" or "operate sleigh" as going north in sleigh room.  Going noth in sleigh room is an action applying to two things.]
 
@@ -257,7 +270,18 @@ Instead of talking to reindeer:
 
 Santa's Sleigh is a thing.  Santa's Sleigh is in the Sleigh Room.  Understand "sleigh" as Santa's Sleigh.  Santa's Sleigh is a vehicle.  Dashboard is part of Santa's Sleigh.  Dashboard is a container.  
 
-Runestone is a thing.  Understand "stone" as runestone.  Runestone is in dashboard.  The description of Runestone is " The stone is oval in shape and primarily dark grey.  There are green cracks running through it, which emit a green light."  The description of dashboard is " The front of the sleigh has leather reigns drooping over it, and there is a mysterious stone held inside."
+Runestone is a thing.  Understand "stone" as runestone.  Runestone is in dashboard.  The description of Runestone is " The stone is oval in shape and primarily dark grey.  There are green cracks running through it, which emit a green light."  
+
+Instead of putting runestone in dashboard:
+	say " You push the stone back into place, and the dashboard lights up.  The sleigh seems alive, and the reindeer are making more noise than ever.";
+	continue the action.;
+	Now the description of dashboard is " The front of the sleigh has leather reigns drooping over it, and there is a mysterious stone held inside.  There are various buttons and lights covering the dashboard.  They are all beeping and buzzing."
+	
+Instead of taking runestone in dashboard:
+	say " You pull and tug at the runestone until it comes out with a 'pop.'  The dashboard looses its color and seems to power off.";
+	continue the action;
+	now the description of the dashboard is " The dashboard is riddled with buttons and lights, but all of them are dark."
+	
 
 [Chapter 5
 
@@ -498,3 +522,8 @@ Instead of going to cold:
 	otherwise:
 		continue the action.
 
+Understand "xyzzy" as xyzzying.
+xyzzying is an action applying to nothing.
+
+Instead of xyzzying:
+	say " Despite the fact that this magical word could light fires, strike lightning, and make you breath under water, that is all in your imagination."
